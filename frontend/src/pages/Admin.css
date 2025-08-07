@@ -1,0 +1,262 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eee;
+}
+
+.admin-header h1 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.refresh-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background: #2980b9;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  padding: 40px;
+}
+
+.error-message {
+  background: #e74c3c;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.access-denied {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.access-denied h2 {
+  color: #e74c3c;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.orders-section h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.no-orders {
+  text-align: center;
+  color: #7f8c8d;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.order-info h3 {
+  margin: 0 0 5px 0;
+  color: #2c3e50;
+  font-size: 1.4rem;
+}
+
+.order-date {
+  color: #7f8c8d;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.status-badge {
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.customer-info {
+  margin-bottom: 20px;
+}
+
+.customer-info h4 {
+  color: #34495e;
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.customer-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.order-items {
+  margin-bottom: 20px;
+}
+
+.order-items h4 {
+  color: #34495e;
+  margin: 0 0 15px 0;
+  font-size: 1.1rem;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.item-details {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.order-total {
+  font-size: 1.2rem;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.status-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-controls label {
+  font-weight: 500;
+  color: #555;
+}
+
+.status-select {
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.status-select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.status-select:disabled {
+  background: #f8f9fa;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.updating {
+  color: #f39c12;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 15px;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .admin-header h1 {
+    font-size: 2rem;
+  }
+  
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .order-footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .status-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
