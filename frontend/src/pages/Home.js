@@ -1,63 +1,73 @@
-import React, { useEffect, useState } from 'react';
-import { getCategories } from '../api';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardActionArea from '@mui/material/CardActionArea';
-import Container from '@mui/material/Container';
-import Paper from '@mui/material/Paper';
-import Chip from '@mui/material/Chip';
-import { Link } from 'react-router-dom';
-import DellLogo from '../assets/Dell_Logo.png';
-import HPLogo from '../assets/HP.png';
-import AcerLogo from '../assets/Acer-Logo.png';
-import MainLogo from '../assets/logo.jpg';
-import LenovoLogo from '../assets/Lenovo.png';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import LocalShippingIcon from '@mui/icons-material/LocalShipping';
-import SupportAgentIcon from '@mui/icons-material/SupportAgent';
-import SecurityIcon from '@mui/icons-material/Security';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import {
+  Box,
+  Typography,
+  Button,
+  Grid,
+  Card,
+  CardContent,
+  CardActionArea,
+  Container,
+  Paper,
+  Chip,
+} from "@mui/material";
+import { useEffect, useState } from "react";
+import { getCategories } from "../api";
+import { Link } from "react-router-dom";
+import DellLogo from "../assets/Dell_Logo.png";
+import HPLogo from "../assets/HP Logo.png";
+import AcerLogo from "../assets/Acer-Logo.png";
+import MainLogo from "../assets/logo.jpg";
+import LenovoLogo from "../assets/Lenovo.png";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import SecurityIcon from "@mui/icons-material/Security";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 
-const laptopImg = 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80';
+const laptopImg =
+  "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80";
 
 const Home = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    getCategories().then(cats => {
+    getCategories().then((cats) => {
       // Remove duplicates and sort categories
-      const uniqueCategories = cats.filter((cat, index, arr) => 
-        arr.findIndex(c => c.name === cat.name) === index
-      ).sort((a, b) => a.name.localeCompare(b.name));
+      const uniqueCategories = cats
+        .filter(
+          (cat, index, arr) =>
+            arr.findIndex((c) => c.name === cat.name) === index
+        )
+        .sort((a, b) => a.name.localeCompare(b.name));
       setCategories(uniqueCategories);
     });
   }, []);
 
   const features = [
     {
-      icon: <CheckCircleIcon sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Quality Guaranteed',
-      description: 'All laptops come with manufacturer warranty and quality assurance'
+      icon: <CheckCircleIcon sx={{ fontSize: 40, color: "primary.main" }} />,
+      title: "Quality Guaranteed",
+      description:
+        "All laptops come with manufacturer warranty and quality assurance",
     },
     {
-      icon: <LocalShippingIcon sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Free Shipping',
-      description: 'Free delivery on orders over 10000 EGP with express shipping options'
+      icon: <LocalShippingIcon sx={{ fontSize: 40, color: "primary.main" }} />,
+      title: "Free Shipping",
+      description:
+        "Free delivery on orders over 10000 EGP with express shipping options",
     },
     {
-      icon: <SupportAgentIcon sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: '24/7 Support',
-      description: 'Expert customer support available round the clock for assistance'
+      icon: <SupportAgentIcon sx={{ fontSize: 40, color: "primary.main" }} />,
+      title: "24/7 Support",
+      description:
+        "Expert customer support available round the clock for assistance",
     },
     {
-      icon: <SecurityIcon sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Secure Payment',
-      description: 'Multiple secure payment options with buyer protection guarantee'
-    }
+      icon: <SecurityIcon sx={{ fontSize: 40, color: "primary.main" }} />,
+      title: "Secure Payment",
+      description:
+        "Multiple secure payment options with buyer protection guarantee",
+    },
   ];
 
   return (
@@ -65,14 +75,14 @@ const Home = () => {
       {/* Hero Section */}
       <Box
         sx={{
-          position: 'relative',
-          height: { xs: '60vh', md: '70vh' },
-          background: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${laptopImg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          display: 'flex',
-          alignItems: 'center',
-          color: 'white',
+          position: "relative",
+          height: { xs: "60vh", md: "70vh" },
+          background: `linear-gradient(rgba(32, 32, 32, 0.7), rgba(30,30,30,0.7)), url(${laptopImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          alignItems: "center",
+          color: "white",
         }}
       >
         <Container maxWidth="lg">
@@ -82,13 +92,13 @@ const Home = () => {
               sx={{
                 fontWeight: 700,
                 mb: 2,
-                fontSize: { xs: '2.5rem', md: '3.5rem' },
-                textShadow: '0 2px 4px rgba(0,0,0,0.3)',
-                color: '#ffd700', // Golden yellow color
-                background: 'linear-gradient(45deg, #ffd700, #ffed4e)',
-                backgroundClip: 'text',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
+                fontSize: { xs: "2.5rem", md: "3.5rem" },
+                textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                color: "#ffd700", // Golden yellow color
+                background: "linear-gradient(45deg, #ffd700, #ffed4e)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
               }}
             >
               Premium Laptops for Every Need
@@ -97,24 +107,24 @@ const Home = () => {
               variant="h5"
               sx={{
                 mb: 4,
-                fontSize: { xs: '1.25rem', md: '1.5rem' },
-                textShadow: '0 2px 4px rgba(0,0,0,0.3)',
-                color: '#e3f2fd', // Light blue color
+                fontSize: { xs: "1.25rem", md: "1.5rem" },
+                textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+                color: "#e3f2fd", // Light blue color
                 fontWeight: 500,
               }}
             >
-              Discover cutting-edge technology with unbeatable performance, quality, and value
+              Discover cutting-edge technology with unbeatable performance,
+              quality, and value
             </Typography>
-            <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
+            <Box sx={{ display: "flex", gap: 2, flexWrap: "wrap" }}>
               <Button
                 component={Link}
                 to="/products"
                 variant="contained"
-                size="large"
                 sx={{
                   px: 4,
-                  py: 1.5,
-                  fontSize: '1.1rem',
+                  py: 1,
+                  fontSize: "1.1rem",
                   fontWeight: 600,
                   borderRadius: 2,
                 }}
@@ -125,18 +135,17 @@ const Home = () => {
                 component={Link}
                 to="/about"
                 variant="outlined"
-                size="large"
                 sx={{
                   px: 4,
-                  py: 1.5,
-                  fontSize: '1.1rem',
+                  py: 1,
+                  fontSize: "1.1rem",
                   fontWeight: 600,
                   borderRadius: 2,
-                  borderColor: 'white',
-                  color: 'white',
-                  '&:hover': {
-                    borderColor: 'white',
-                    backgroundColor: 'rgba(255,255,255,0.1)',
+                  borderColor: "white",
+                  color: "white",
+                  "&:hover": {
+                    borderColor: "white",
+                    backgroundColor: "rgba(255,255,255,0.1)",
                   },
                 }}
               >
@@ -155,7 +164,7 @@ const Home = () => {
           sx={{
             mb: 2,
             fontWeight: 700,
-            color: 'text.primary',
+            color: "text.primary",
           }}
         >
           Why Choose Dragon Lap?
@@ -164,9 +173,10 @@ const Home = () => {
           variant="h6"
           align="center"
           color="text.secondary"
-          sx={{ mb: 6, maxWidth: 600, mx: 'auto' }}
+          sx={{ mb: 6, maxWidth: 600, mx: "auto" }}
         >
-          We're committed to providing exceptional value and service that exceeds your expectations
+          We're committed to providing exceptional value and service that
+          exceeds your expectations
         </Typography>
 
         <Grid container spacing={4} justifyContent="center">
@@ -176,19 +186,17 @@ const Home = () => {
                 elevation={2}
                 sx={{
                   p: 3,
-                  textAlign: 'center',
-                  height: '100%',
+                  textAlign: "center",
+                  height: "100%",
                   borderRadius: 3,
-                  transition: 'all 0.3s ease',
-                  '&:hover': {
-                    transform: 'translateY(-8px)',
+                  transition: "all 0.3s ease",
+                  "&:hover": {
+                    transform: "translateY(-8px)",
                     boxShadow: 4,
                   },
                 }}
               >
-                <Box sx={{ mb: 2 }}>
-                  {feature.icon}
-                </Box>
+                <Box sx={{ mb: 2 }}>{feature.icon}</Box>
                 <Typography variant="h6" sx={{ mb: 1, fontWeight: 600 }}>
                   {feature.title}
                 </Typography>
@@ -202,7 +210,7 @@ const Home = () => {
       </Container>
 
       {/* Categories Section */}
-      <Box sx={{ bgcolor: 'background.default', py: 8 }}>
+      <Box sx={{ bgcolor: "background.default", py: 8 }}>
         <Container maxWidth="lg">
           <Typography
             variant="h3"
@@ -210,7 +218,7 @@ const Home = () => {
             sx={{
               mb: 2,
               fontWeight: 700,
-              color: 'text.primary',
+              color: "text.primary",
             }}
           >
             Shop by Brand
@@ -225,7 +233,7 @@ const Home = () => {
           </Typography>
 
           <Grid container spacing={3} justifyContent="center">
-            {categories.slice(0, 4).map(cat => {
+            {categories.slice(0, 4).map((cat) => {
               let imgSrc = MainLogo;
               if (/dell/i.test(cat.name)) imgSrc = DellLogo;
               else if (/hp/i.test(cat.name)) imgSrc = HPLogo;
@@ -233,18 +241,18 @@ const Home = () => {
               else if (/lenovo/i.test(cat.name)) imgSrc = LenovoLogo;
 
               return (
-                <Grid item xs={6} sm={6} md={3} key={cat.name}>
+                <Grid item xs={12} sm={6} md={8} key={cat.name}>
                   <Card
                     elevation={2}
                     sx={{
                       borderRadius: 3,
-                      height: '100%',
-                      minHeight: 280,
-                      display: 'flex',
-                      flexDirection: 'column',
-                      transition: 'all 0.3s ease',
-                      '&:hover': {
-                        transform: 'translateY(-8px)',
+                      height: "100%",
+                      minHeight: 320,
+                      display: "flex",
+                      flexDirection: "column",
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-8px)",
                         boxShadow: 4,
                       },
                     }}
@@ -252,36 +260,41 @@ const Home = () => {
                     <CardActionArea
                       component={Link}
                       to={`/products?category=${cat.id}`}
-                      sx={{ p: 3, height: '100%', display: 'flex', flexDirection: 'column', flex: 1 }}
+                      sx={{
+                        p: 3,
+                        height: "100%",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        textAlign: "center",
+                        justifyContent: "space-between",
+                      }}
                     >
                       <Box
                         sx={{
-                          display: 'flex',
-                          justifyContent: 'center',
-                          alignItems: 'center',
+                          width: 170,
+                          height: 170,
                           mb: 2,
-                          height: 120,
-                          flex: 1,
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
                         }}
                       >
                         <img
                           src={imgSrc}
                           alt={cat.name}
                           style={{
-                            maxWidth: '80%',
-                            maxHeight: '80%',
-                            objectFit: 'contain',
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "contain",
                           }}
                         />
                       </Box>
-                      <CardContent sx={{ textAlign: 'center', pt: 0, pb: '16px !important' }}>
+
+                      <CardContent sx={{ flexGrow: 1 }}>
                         <Typography
                           variant="h6"
-                          sx={{
-                            fontWeight: 600,
-                            color: 'text.primary',
-                            mb: 1,
-                          }}
+                          sx={{ fontWeight: 600, mb: 1 }}
                         >
                           {cat.name}
                         </Typography>
@@ -307,18 +320,31 @@ const Home = () => {
           elevation={3}
           sx={{
             p: 6,
-            textAlign: 'center',
+            textAlign: "center",
             borderRadius: 4,
-            background: 'linear-gradient(135deg, #1976d2 0%, #1565c0 100%)',
-            color: 'white',
+            background: "linear-gradient(135deg, #13375bff 0%, #1565c0 100%)",
+            color: "white",
           }}
         >
           <TrendingUpIcon sx={{ fontSize: 60, mb: 2, opacity: 0.9 }} />
-          <Typography variant="h4" sx={{ mb: 2, fontWeight: 700 }}>
+          <Typography
+            variant="h4"
+            sx={{ mb: 2, fontWeight: 700, color: "white" }}
+          >
             Ready to Upgrade Your Technology?
           </Typography>
-          <Typography variant="h6" sx={{ mb: 4, opacity: 0.9, maxWidth: 600, mx: 'auto' }}>
-            Join thousands of satisfied customers who trust Dragon Lap for their computing needs
+          <Typography
+            variant="h6"
+            sx={{
+              mb: 4,
+              opacity: 0.9,
+              maxWidth: 600,
+              mx: "auto",
+              color: "white",
+            }}
+          >
+            Join thousands of satisfied customers who trust Dragon Lap for their
+            computing needs
           </Typography>
           <Button
             component={Link}
@@ -326,15 +352,15 @@ const Home = () => {
             variant="contained"
             size="large"
             sx={{
-              bgcolor: 'white',
-              color: 'primary.main',
+              bgcolor: "white",
+              color: "primary.main",
               px: 4,
               py: 1.5,
-              fontSize: '1.1rem',
+              fontSize: "1.1rem",
               fontWeight: 600,
               borderRadius: 2,
-              '&:hover': {
-                bgcolor: 'grey.100',
+              "&:hover": {
+                bgcolor: "grey.100",
               },
             }}
           >
@@ -346,4 +372,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;
