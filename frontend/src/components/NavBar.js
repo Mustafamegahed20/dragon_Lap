@@ -28,6 +28,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import CompareArrowsIcon from "@mui/icons-material/CompareArrows";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import { useCart } from "../CartContext";
 
 export function NavBar({
   signInHover,
@@ -41,6 +42,7 @@ export function NavBar({
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const { cart } = useCart();
 
   const isActive = (path) => {
     // Handle home route separately
@@ -52,6 +54,9 @@ export function NavBar({
   };
 
   const user = getUserFromToken();
+  
+  // Calculate total items in cart (sum of all quantities)
+  const cartItemCount = cart.reduce((total, item) => total + item.qty, 0);
 
   const navigationLinks = [
     { label: "Home", path: "/" },
@@ -268,7 +273,7 @@ export function NavBar({
                       },
                     }}
                   >
-                    <Badge badgeContent={0} color="secondary">
+                    <Badge badgeContent={cartItemCount} color="secondary">
                       <ShoppingCartIcon />
                     </Badge>
                   </IconButton>
@@ -402,7 +407,7 @@ export function NavBar({
                   navigate("/cart");
                 }}
               >
-                <Badge badgeContent={0} color="secondary">
+                <Badge badgeContent={cartItemCount} color="secondary">
                   <ShoppingCartIcon />
                 </Badge>
               </IconButton>
