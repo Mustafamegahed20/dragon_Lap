@@ -31,15 +31,23 @@ const ProductDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [snackbarOpen, setSnackbarOpen] = useState(false);
   const { addToCart } = useCart();
 
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const prod = await getProduct(id);
-      setProduct(prod);
-      setLoading(false);
+      setError(null);
+      try {
+        const prod = await getProduct(id);
+        setProduct(prod);
+      } catch (err) {
+        console.error('Error fetching product:', err);
+        setError(err.message || 'Failed to load product');
+      } finally {
+        setLoading(false);
+      }
     }
     fetchData();
   }, [id]);
@@ -50,6 +58,18 @@ const ProductDetails = () => {
   };
 
   if (loading) return <div>Loading...</div>;
+  if (error) return (
+    <Container maxWidth="lg" sx={{ py: 4 }}>
+      <Paper elevation={0} sx={{ p: 4, textAlign: 'center' }}>
+        <Typography variant="h5" color="error" sx={{ mb: 2 }}>
+          {error}
+        </Typography>
+        <Typography variant="body1" color="text.secondary">
+          The product you're looking for could not be loaded. Please check the URL or try again later.
+        </Typography>
+      </Paper>
+    </Container>
+  );
   if (!product) return <div>Product not found.</div>;
 
   // Specification items data

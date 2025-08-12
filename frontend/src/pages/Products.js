@@ -94,7 +94,7 @@ const Products = () => {
     // Category filter
     if (selectedCategory) {
       filtered = filtered.filter(
-        (product) => product.category_id === parseInt(selectedCategory)
+        (product) => product.category_id && product.category_id._id === selectedCategory
       );
     }
 
@@ -162,7 +162,7 @@ const Products = () => {
   };
 
   const getCategoryName = (categoryId) => {
-    const category = categories.find((cat) => cat.id === parseInt(categoryId));
+    const category = categories.find((cat) => cat._id === categoryId);
     return category ? category.name : "";
   };
 
@@ -386,7 +386,7 @@ const Products = () => {
                 >
                   <MenuItem value="">All Categories</MenuItem>
                   {categories.map((cat) => (
-                    <MenuItem key={cat.id} value={cat.id.toString()}>
+                    <MenuItem key={cat._id} value={cat._id}>
                       {cat.name}
                     </MenuItem>
                   ))}
@@ -458,7 +458,7 @@ const Products = () => {
         {/* Product Grid */}
         <Grid container spacing={3} justifyContent={"center"}>
           {filteredProducts.map((product) => (
-            <Grid item xs={12} sm={6} md={4} key={product.id}>
+            <Grid item xs={12} sm={6} md={4} key={product._id}>
               <ProductCard
                 product={product}
                 handleAddToCart={handleAddToCart}

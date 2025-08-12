@@ -1,0 +1,226 @@
+Loaded 5 categories and 114 products
+🚀 Dragon Lap Backend with REAL DATA running on http://localhost:5000
+📱 Frontend should be running on http://localhost:3000
+
+✅ Real laptop data loaded:
+   📂 Categories: 5 (DELL, DELL, HP, LENOVO, ACER)
+   💻 Products: 114 laptops
+
+Available API endpoints:
+  GET  /api - API status with data summary
+  GET  /api/categories - Real laptop brands
+  GET  /api/products - All your real laptops
+  GET  /api/products/:id - Single laptop details
+  POST /api/auth/register - User registration
+  POST /api/auth/login - User login
+  POST /api/orders - Place order
+  GET  /api/admin/orders - Admin orders
+
+🎯 Your actual laptop inventory is now loaded!
+2025-08-12T08:11:53.597Z - GET /api
+2025-08-12T08:11:57.231Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:11:59.347Z - GET /api/categories
+2025-08-12T08:11:59.349Z - GET /api/categories
+2025-08-12T08:11:59.350Z - GET /api/products
+2025-08-12T08:11:59.352Z - GET /api/products
+2025-08-12T08:12:01.591Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:12:01.593Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:12:12.401Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:12:32.288Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:12:33.236Z - GET /api/categories
+2025-08-12T08:12:33.238Z - GET /api/categories
+2025-08-12T08:12:35.752Z - GET /api/categories
+2025-08-12T08:12:35.754Z - GET /api/products
+2025-08-12T08:12:35.755Z - GET /api/categories
+2025-08-12T08:12:35.756Z - GET /api/products
+2025-08-12T08:12:41.708Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:12:41.709Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:18:58.810Z - GET /api/categories
+2025-08-12T08:18:58.811Z - GET /api/categories
+2025-08-12T08:18:59.512Z - GET /api/categories
+2025-08-12T08:18:59.513Z - GET /api/products
+2025-08-12T08:18:59.514Z - GET /api/categories
+2025-08-12T08:18:59.516Z - GET /api/products
+2025-08-12T08:19:01.533Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:19:01.535Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:19:31.070Z - GET /api/categories
+2025-08-12T08:19:31.071Z - GET /api/products
+2025-08-12T08:19:31.072Z - GET /api/categories
+2025-08-12T08:19:31.072Z - GET /api/products
+2025-08-12T08:19:33.197Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:19:33.198Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:19:36.856Z - GET /api/categories
+2025-08-12T08:19:36.857Z - GET /api/products
+2025-08-12T08:19:36.859Z - GET /api/categories
+2025-08-12T08:19:36.860Z - GET /api/products
+2025-08-12T08:19:38.855Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:19:38.857Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:22:05.572Z - GET /api/categories
+2025-08-12T08:22:05.573Z - GET /api/products
+2025-08-12T08:22:05.574Z - GET /api/categories
+2025-08-12T08:22:05.575Z - GET /api/products
+2025-08-12T08:22:07.348Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:22:07.350Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:22:48.586Z - GET /api/products
+2025-08-12T08:22:58.619Z - GET /api/products/1
+2025-08-12T08:23:11.397Z - GET /api/products/undefined
+Invalid product ID requested: undefined
+2025-08-12T08:23:53.738Z - GET /api/categories
+2025-08-12T08:23:53.739Z - GET /api/categories
+2025-08-12T08:24:56.190Z - GET /api/categories
+2025-08-12T08:24:57.371Z - GET /api/categories
+2025-08-12T08:24:57.372Z - GET /api/products
+2025-08-12T08:24:57.373Z - GET /api/categories
+2025-08-12T08:24:57.373Z - GET /api/products
+2025-08-12T08:24:59.369Z - GET /api/products/50
+2025-08-12T08:24:59.371Z - GET /api/products/50
+2025-08-12T08:25:18.310Z - GET /api/categories
+2025-08-12T08:25:18.311Z - GET /api/products
+2025-08-12T08:25:18.312Z - GET /api/categories
+2025-08-12T08:25:18.313Z - GET /api/products
+2025-08-12T08:25:23.453Z - GET /api/categories
+2025-08-12T08:25:23.455Z - GET /api/categories
+2025-08-12T08:25:24.103Z - GET /api/categories
+2025-08-12T08:25:24.104Z - GET /api/products
+2025-08-12T08:25:24.105Z - GET /api/categories
+2025-08-12T08:25:24.108Z - GET /api/products
+2025-08-12T08:28:45.998Z - GET /api/products/52
+2025-08-12T08:28:46.000Z - GET /api/products/52
+2025-08-12T08:32:18.166Z - GET /api/categories
+2025-08-12T08:32:18.167Z - GET /api/categories
+2025-08-12T08:33:09.629Z - GET /api/categories
+2025-08-12T08:33:09.629Z - GET /api/products
+2025-08-12T08:33:09.630Z - GET /api/categories
+2025-08-12T08:33:09.631Z - GET /api/products
+2025-08-12T08:33:13.475Z - GET /api/categories
+2025-08-12T08:33:13.476Z - GET /api/categories
+2025-08-12T08:33:15.164Z - GET /api/categories
+2025-08-12T08:33:15.165Z - GET /api/products
+2025-08-12T08:33:15.166Z - GET /api/categories
+2025-08-12T08:33:15.166Z - GET /api/products
+2025-08-12T08:33:19.224Z - GET /api/categories
+2025-08-12T08:33:19.226Z - GET /api/categories
+2025-08-12T08:39:36.408Z - GET /api/categories
+2025-08-12T08:41:41.719Z - GET /api/categories
+2025-08-12T08:41:42.665Z - GET /api/categories
+2025-08-12T08:41:42.666Z - GET /api/products
+2025-08-12T08:41:42.667Z - GET /api/categories
+2025-08-12T08:41:42.673Z - GET /api/products
+2025-08-12T08:41:44.747Z - GET /api/categories
+2025-08-12T08:41:44.749Z - GET /api/categories
+2025-08-12T08:42:17.104Z - GET /api/categories
+2025-08-12T08:42:23.252Z - GET /api/categories
+2025-08-12T08:42:23.253Z - GET /api/products
+2025-08-12T08:42:23.255Z - GET /api/categories
+2025-08-12T08:42:23.255Z - GET /api/products
+2025-08-12T08:42:28.517Z - GET /api/categories
+2025-08-12T08:42:28.520Z - GET /api/categories
+2025-08-12T08:42:30.600Z - GET /api/categories
+2025-08-12T08:42:30.601Z - GET /api/products
+2025-08-12T08:42:30.602Z - GET /api/categories
+2025-08-12T08:42:30.604Z - GET /api/products
+2025-08-12T08:42:33.014Z - GET /api/categories
+2025-08-12T08:42:33.015Z - GET /api/categories
+2025-08-12T08:42:34.924Z - GET /api/categories
+2025-08-12T08:42:34.925Z - GET /api/products
+2025-08-12T08:42:34.925Z - GET /api/categories
+2025-08-12T08:42:34.926Z - GET /api/products
+2025-08-12T08:42:55.418Z - GET /api/categories
+2025-08-12T08:42:55.420Z - GET /api/categories
+2025-08-12T08:42:58.444Z - GET /api/categories
+2025-08-12T08:42:58.445Z - GET /api/products
+2025-08-12T08:42:58.446Z - GET /api/categories
+2025-08-12T08:42:58.447Z - GET /api/products
+2025-08-12T08:43:00.038Z - GET /api/categories
+2025-08-12T08:43:00.040Z - GET /api/categories
+2025-08-12T08:51:11.496Z - GET /api/categories
+2025-08-12T08:51:11.499Z - GET /api/products
+2025-08-12T08:51:11.500Z - GET /api/categories
+2025-08-12T08:51:11.506Z - GET /api/products
+2025-08-12T08:51:15.615Z - GET /api/categories
+2025-08-12T08:51:15.616Z - GET /api/categories
+2025-08-12T08:51:17.421Z - GET /api/categories
+2025-08-12T08:51:17.422Z - GET /api/products
+2025-08-12T08:51:17.423Z - GET /api/categories
+2025-08-12T08:51:17.424Z - GET /api/products
+2025-08-12T08:51:24.778Z - GET /api/categories
+2025-08-12T08:51:24.779Z - GET /api/categories
+2025-08-12T08:51:27.289Z - GET /api/categories
+2025-08-12T08:51:27.290Z - GET /api/products
+2025-08-12T08:51:27.290Z - GET /api/categories
+2025-08-12T08:51:27.291Z - GET /api/products
+2025-08-12T08:51:30.150Z - GET /api/categories
+2025-08-12T08:51:30.151Z - GET /api/categories
+2025-08-12T08:52:02.832Z - GET /api/categories
+2025-08-12T08:52:02.834Z - GET /api/categories
+2025-08-12T08:52:02.836Z - GET /api/products
+2025-08-12T08:52:02.837Z - GET /api/products
+2025-08-12T08:52:07.096Z - GET /api/categories
+2025-08-12T08:52:07.097Z - GET /api/categories
+2025-08-12T08:52:10.245Z - GET /api/categories
+2025-08-12T08:52:10.247Z - GET /api/products
+2025-08-12T08:52:10.248Z - GET /api/categories
+2025-08-12T08:52:10.249Z - GET /api/products
+2025-08-12T08:52:13.551Z - GET /api/categories
+2025-08-12T08:52:13.552Z - GET /api/categories
+2025-08-12T08:53:18.007Z - GET /api/categories
+2025-08-12T08:53:18.009Z - GET /api/products
+2025-08-12T08:53:18.010Z - GET /api/categories
+2025-08-12T08:53:18.011Z - GET /api/products
+2025-08-12T08:53:23.216Z - GET /api/categories
+2025-08-12T08:53:23.217Z - GET /api/categories
+2025-08-12T08:53:35.673Z - GET /api/categories
+2025-08-12T08:53:35.675Z - GET /api/categories
+2025-08-12T08:53:36.398Z - GET /api/categories
+2025-08-12T08:53:36.398Z - GET /api/products
+2025-08-12T08:53:36.399Z - GET /api/categories
+2025-08-12T08:53:36.400Z - GET /api/products
+2025-08-12T08:53:37.181Z - GET /api/categories
+2025-08-12T08:53:37.183Z - GET /api/categories
+2025-08-12T08:53:41.134Z - GET /api/categories
+2025-08-12T08:53:41.135Z - GET /api/products
+2025-08-12T08:53:47.930Z - GET /api/categories
+2025-08-12T08:53:47.939Z - GET /api/categories
+2025-08-12T08:54:00.683Z - GET /api/categories
+2025-08-12T08:54:00.684Z - GET /api/products
+2025-08-12T08:54:00.685Z - GET /api/categories
+2025-08-12T08:54:00.686Z - GET /api/products
+2025-08-12T08:54:03.255Z - GET /api/products/38
+2025-08-12T08:54:03.256Z - GET /api/products/38
+2025-08-12T08:54:05.266Z - GET /api/categories
+2025-08-12T08:54:05.267Z - GET /api/categories
+2025-08-12T08:58:53.304Z - GET /api/categories
+2025-08-12T08:58:53.305Z - GET /api/products
+2025-08-12T08:58:53.306Z - GET /api/categories
+2025-08-12T08:58:53.307Z - GET /api/products
+2025-08-12T08:58:56.277Z - GET /api/categories
+2025-08-12T08:58:56.278Z - GET /api/categories
+2025-08-12T09:06:39.454Z - GET /api/categories
+2025-08-12T09:06:39.455Z - GET /api/products
+2025-08-12T09:06:39.456Z - GET /api/categories
+2025-08-12T09:06:39.457Z - GET /api/products
+2025-08-12T09:06:40.981Z - GET /api/categories
+2025-08-12T09:06:40.982Z - GET /api/products
+2025-08-12T09:06:40.983Z - GET /api/categories
+2025-08-12T09:06:40.984Z - GET /api/products
+2025-08-12T09:06:46.123Z - GET /api/categories
+2025-08-12T09:06:46.124Z - GET /api/categories
+2025-08-12T11:46:19.793Z - GET /api/categories
+2025-08-12T11:46:19.795Z - GET /api/products
+2025-08-12T11:46:19.796Z - GET /api/categories
+2025-08-12T11:46:19.797Z - GET /api/products

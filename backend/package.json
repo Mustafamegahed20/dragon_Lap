@@ -4,9 +4,10 @@
   "description": "Dragon Lap E-commerce Backend API for Vercel",
   "main": "api/index.js",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js",
-    "migrate": "node migrate-to-mongodb.js"
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "migrate": "node migrate-to-mongodb.js",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -14,9 +15,7 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.17.1",
-    "sqlite3": "^5.1.7",
-    "xlsx": "^0.18.5"
+    "mongoose": "^8.17.1"
   },
   "engines": {
     "node": ">=18.0.0"

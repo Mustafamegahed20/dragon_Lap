@@ -1,0 +1,2263 @@
+[
+  {
+    "_id": "1",
+    "name": "DELL PRE 7740",
+    "description": "Professional dell laptop with I5-9TH H processor",
+    "price": 17500,
+    "image": "/images/laptops/dell-pre-7740.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-9TH H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD WX 3200 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "2",
+    "name": "DELL PRE 7730",
+    "description": "Professional dell laptop with I7-8TH H processor",
+    "price": 25000,
+    "image": "/images/laptops/dell-pre-7730.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD WX 7100 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "3",
+    "name": "DELL PRE 7730",
+    "description": "Professional dell laptop with I7-8TH H processor",
+    "price": 21000,
+    "image": "/images/laptops/dell-pre-7730.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH H",
+    "ram": "32GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA P3200 6G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "4",
+    "name": "DELL PRE 7730",
+    "description": "Professional dell laptop with I5-8TH H processor",
+    "price": 18500,
+    "image": "/images/laptops/dell-pre-7730.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH H",
+    "ram": "24GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD WX 4150 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "5",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with XEON 1545 V5 processor",
+    "price": 22000,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "XEON 1545 V5",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA P4000 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "6",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with I7-7TH HQ processor",
+    "price": 23000,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-7TH HQ",
+    "ram": "16GB",
+    "storage": "600GB SSD",
+    "graphics": "NVIDIA P4000 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "7",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with I7-7TH HQ processor",
+    "price": 22500,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-7TH HQ",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD WX 7100 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "8",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with XEON 1505 V6 processor",
+    "price": 17000,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "XEON 1505 V6",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA M1200 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "9",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with I5-7TH HQ processor",
+    "price": 14500,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-7TH HQ",
+    "ram": "16GB",
+    "storage": "240GB SSD",
+    "graphics": "AMD WX 4130 2G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "10",
+    "name": "DELL PRE 7720",
+    "description": "Professional dell laptop with XEON 1535 V6 processor",
+    "price": 13500,
+    "image": "/images/laptops/dell-pre-7720.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "XEON 1535 V6",
+    "ram": "16GB",
+    "storage": "600GB SSD",
+    "graphics": "AMD WX 4130 2G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "11",
+    "name": "DELL PRE 7710",
+    "description": "Professional dell laptop with XEON 1505 V5 processor",
+    "price": 19500,
+    "image": "/images/laptops/dell-pre-7710.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "XEON 1505 V5",
+    "ram": "16GB",
+    "storage": "240GB SSD",
+    "graphics": "NVIDIA M5000M 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "12",
+    "name": "DELL PRE 7710",
+    "description": "Professional dell laptop with I7-6TH HQ processor",
+    "price": 19500,
+    "image": "/images/laptops/dell-pre-7710.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "16GB",
+    "storage": "600GB SSD",
+    "graphics": "NVIDIA M5000M 8G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "13",
+    "name": "DELL PRE 7710",
+    "description": "Professional dell laptop with I7-6TH HQ processor",
+    "price": 14500,
+    "image": "/images/laptops/dell-pre-7710.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA M3000M 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "14",
+    "name": "DELL PRE 7710",
+    "description": "Professional dell laptop with I7-6TH HQ processor",
+    "price": 13000,
+    "image": "/images/laptops/dell-pre-7710.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD FIREPRO W5170 2G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "15",
+    "name": "DELL INSPIRON 5759",
+    "description": "Professional dell laptop with I7-6500U processor",
+    "price": 11500,
+    "image": "/images/laptops/dell-inspiron-5759.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6500U",
+    "ram": "16 DR3GB",
+    "storage": "512 SSDGB SSD",
+    "graphics": "AMD RADEON M335 4G",
+    "screen_size": "17.3 INCH TOUCH \" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "16",
+    "name": "DELL INSPIRON 5770",
+    "description": "Professional dell laptop with I7-8TH U processor",
+    "price": 15000,
+    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH U",
+    "ram": "16GB",
+    "storage": "500 SSDGB SSD",
+    "graphics": "AMD RADEON 530 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "17",
+    "name": "DELL INSPIRON 5770",
+    "description": "Professional dell laptop with I7-8TH U processor",
+    "price": 11000,
+    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH U",
+    "ram": "16GB",
+    "storage": "500 SSDGB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "18",
+    "name": "DELL INSPIRON 5770",
+    "description": "Professional dell laptop with I3-8TH U processor",
+    "price": 6500,
+    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I3-8TH U",
+    "ram": "8GB",
+    "storage": "256 SSDGB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "19",
+    "name": "DELL INSPIRON 3793",
+    "description": "Professional dell laptop with I7-10TH G7 processor",
+    "price": 19500,
+    "image": "/images/laptops/dell-inspiron-3793.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-10TH G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA GEFORCE MX230 2G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "20",
+    "name": "DELL INSPIRON 5767",
+    "description": "Professional dell laptop with I7-7TH U processor",
+    "price": 14000,
+    "image": "/images/laptops/dell-inspiron-5767.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-7TH U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD R7 M440 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "21",
+    "name": "DELL INSPIRON 3780",
+    "description": "Professional dell laptop with I5-8TH U processor",
+    "price": 11500,
+    "image": "/images/laptops/dell-inspiron-3780.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD RADEON 520 2G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "22",
+    "name": "DELL INSPIRON 3793",
+    "description": "Professional dell laptop with I5-10TH G1 processor",
+    "price": 15500,
+    "image": "/images/laptops/dell-inspiron-3793.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-10TH G1",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "23",
+    "name": "DELL PRE M6800",
+    "description": "Professional dell laptop with I7-4TH processor",
+    "price": 8500,
+    "image": "/images/laptops/dell-pre-m6800.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-4TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "VGA NVIDIA K3100 4G",
+    "screen_size": "17.3 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "24",
+    "name": "DELL PRE M6800",
+    "description": "Professional dell laptop with I7-4TH processor",
+    "price": 8900,
+    "image": "/images/laptops/dell-pre-m6800.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-4TH",
+    "ram": "16GB",
+    "storage": "500GB SSD",
+    "graphics": "NVIDIA K4100 4G",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "25",
+    "name": "BRAND MODEL",
+    "description": "Professional brand laptop with CPU processor",
+    "price": "PRICE",
+    "image": "/images/laptops/brand-model.jpg",
+    "category_id": {
+      "_id": "2",
+      "name": "BRAND"
+    },
+    "cpu": "CPU",
+    "ram": "RAMGB",
+    "storage": "HDDGB SSD",
+    "graphics": "VGA",
+    "screen_size": "SCREEN\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "26",
+    "name": "DELL XPS 9575",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 21000,
+    "image": "/images/laptops/dell-xps-9575.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD 4G",
+    "screen_size": "15.6 TOUCH 360.\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "27",
+    "name": "DELL PRE 5520",
+    "description": "Professional dell laptop with XEON 1505 processor",
+    "price": 0,
+    "image": "/images/laptops/dell-pre-5520.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "XEON 1505",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA 4G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "28",
+    "name": "DELL PRE 7510",
+    "description": "Professional dell laptop with I7-6TH HQ processor",
+    "price": 13500,
+    "image": "/images/laptops/dell-pre-7510.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD 2G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "29",
+    "name": "DELL PRE 3560",
+    "description": "Professional dell laptop with I7-11TH G7 processor",
+    "price": 22000,
+    "image": "/images/laptops/dell-pre-3560.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-11TH G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA T500 2G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "30",
+    "name": "DELL PRE 3551",
+    "description": "Professional dell laptop with I7-10TH H processor",
+    "price": 25500,
+    "image": "/images/laptops/dell-pre-3551.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-10TH H",
+    "ram": "32GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA 4G",
+    "screen_size": "15.6 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "31",
+    "name": "DELL PRE 3541",
+    "description": "Professional dell laptop with I7-9TH H processor",
+    "price": 20500,
+    "image": "/images/laptops/dell-pre-3541.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-9TH H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA 4G P620",
+    "screen_size": "15.6 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "32",
+    "name": "DELL PRE 3540",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 15000,
+    "image": "/images/laptops/dell-pre-3540.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "33",
+    "name": "DELLL 3500",
+    "description": "Professional delll laptop with I7-8TH U processor",
+    "price": 14000,
+    "image": "/images/laptops/delll-3500.jpg",
+    "category_id": {
+      "_id": "3",
+      "name": "DELLL"
+    },
+    "cpu": "I7-8TH U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA MX130 2G NVIDIA",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "34",
+    "name": "DELL 5590",
+    "description": "Professional dell laptop with I7-8TH U processor",
+    "price": 14500,
+    "image": "/images/laptops/dell-5590.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA 2G NVIDIA",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "35",
+    "name": "DELL 5590",
+    "description": "Professional dell laptop with I7-8TH U processor",
+    "price": 13000,
+    "image": "/images/laptops/dell-5590.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA 2G NVIDIA",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "36",
+    "name": "DELL LATITUDE 5591",
+    "description": "Professional dell laptop with I5-8TH H processor",
+    "price": 12500,
+    "image": "/images/laptops/dell-latitude-5591.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH H",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA MX130 2G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "37",
+    "name": "DELL PRE 3530",
+    "description": "Professional dell laptop with I5-8TH H processor",
+    "price": 14500,
+    "image": "/images/laptops/dell-pre-3530.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH H",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "NVIDIA P600 4G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "38",
+    "name": "DELL 3530",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 11000,
+    "image": "/images/laptops/dell-3530.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "39",
+    "name": "DELL LATITUDE 5511",
+    "description": "Professional dell laptop with I7-10TH H processor",
+    "price": 19500,
+    "image": "/images/laptops/dell-latitude-5511.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-10TH H",
+    "ram": "16GB",
+    "storage": "500GB SSD",
+    "graphics": "VGA 2G NVIDIA",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "40",
+    "name": "DELL LATITUDE 5520",
+    "description": "Professional dell laptop with I5-11THG7 processor",
+    "price": 14500,
+    "image": "/images/laptops/dell-latitude-5520.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-11THG7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "41",
+    "name": "DELL LATITUDE 5500",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 0,
+    "image": "/images/laptops/dell-latitude-5500.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "42",
+    "name": "DELL LATITUDE 5591",
+    "description": "Professional dell laptop with I5-8TH H processor",
+    "price": 9500,
+    "image": "/images/laptops/dell-latitude-5591.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH H",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "43",
+    "name": "DELL LATITUDE 5590",
+    "description": "Professional dell laptop with I5-8TH processor",
+    "price": 9500,
+    "image": "/images/laptops/dell-latitude-5590.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "44",
+    "name": "DELL LATITUDE 3590",
+    "description": "Professional dell laptop with I5-8TH U processor",
+    "price": 9500,
+    "image": "/images/laptops/dell-latitude-3590.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "45",
+    "name": "DELL LATITUDE 5570",
+    "description": "Professional dell laptop with I3-6TH processor",
+    "price": 6000,
+    "image": "/images/laptops/dell-latitude-5570.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I3-6TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "46",
+    "name": "DELL LATITUDE 5590",
+    "description": "Professional dell laptop with I3-7TH processor",
+    "price": 6500,
+    "image": "/images/laptops/dell-latitude-5590.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I3-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6 TOUH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "47",
+    "name": "DELL INSPIRON 5555",
+    "description": "Professional dell laptop with A10-8700 processor",
+    "price": 6000,
+    "image": "/images/laptops/dell-inspiron-5555.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "A10-8700",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD RADEON R6 4G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "48",
+    "name": "DELL LATITUDE 3576",
+    "description": "Professional dell laptop with I5-8TH U processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-3576.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "49",
+    "name": "DELL LATITUDE 5566",
+    "description": "Professional dell laptop with I7-7TH U processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-5566.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-7TH U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "50",
+    "name": "DELL 5550",
+    "description": "Professional dell laptop with I5-5TH processor",
+    "price": 5700,
+    "image": "/images/laptops/dell-5550.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-5TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "51",
+    "name": "DELL LATITUDE 6540",
+    "description": "Professional dell laptop with I7-4TH processor",
+    "price": 4700,
+    "image": "/images/laptops/dell-latitude-6540.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-4TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "52",
+    "name": "DELL LATITUDE 6520",
+    "description": "Professional dell laptop with I7-2ND processor",
+    "price": 3800,
+    "image": "/images/laptops/dell-latitude-6520.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-2ND",
+    "ram": "4GB",
+    "storage": "320GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "53",
+    "name": "BRAND MODEL",
+    "description": "Professional brand laptop with CPU processor",
+    "price": "PRICE",
+    "image": "/images/laptops/brand-model.jpg",
+    "category_id": {
+      "_id": "2",
+      "name": "BRAND"
+    },
+    "cpu": "CPU",
+    "ram": "RAMGB",
+    "storage": "HDDGB SSD",
+    "graphics": "VGA",
+    "screen_size": "SCREEN\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "54",
+    "name": "DELL LATITUDE 7410",
+    "description": "Professional dell laptop with I5-10TH U processor",
+    "price": 12500,
+    "image": "/images/laptops/dell-latitude-7410.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-10TH U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "55",
+    "name": "DELL LATITUDE 7400",
+    "description": "Professional dell laptop with I5-8TH processor",
+    "price": 8500,
+    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "56",
+    "name": "DELL LATITUDE 7400",
+    "description": "Professional dell laptop with I5-8TH processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "57",
+    "name": "DELL LATITUDE 7400",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 10000,
+    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "58",
+    "name": "DELL LATITUDE 7400",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 9500,
+    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "59",
+    "name": "DELL LATITUDE 7490",
+    "description": "Professional dell laptop with I5-8TH processor",
+    "price": 8500,
+    "image": "/images/laptops/dell-latitude-7490.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "60",
+    "name": "DELL LATITUDE 7480",
+    "description": "Professional dell laptop with I7-7TH processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-7480.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-7TH",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "61",
+    "name": "DELL LATITUDE 7480",
+    "description": "Professional dell laptop with I5-7TH processor",
+    "price": 8000,
+    "image": "/images/laptops/dell-latitude-7480.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "62",
+    "name": "DELL LATITUDE 5470",
+    "description": "Professional dell laptop with I7-6TH U processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD VGA 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "63",
+    "name": "DELL LATITUDE 5470",
+    "description": "Professional dell laptop with I5-6TH HQ processor",
+    "price": 8000,
+    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-6TH HQ",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "64",
+    "name": "DELL LATITUDE 5470",
+    "description": "Professional dell laptop with I7-6TH HQ processor",
+    "price": 7500,
+    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "65",
+    "name": "DELL LATITUDE 5480",
+    "description": "Professional dell laptop with I5-7TH processor",
+    "price": 5000,
+    "image": "/images/laptops/dell-latitude-5480.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "66",
+    "name": "DELL LATITUDE 5490",
+    "description": "Professional dell laptop with I3-7TH processor",
+    "price": 7000,
+    "image": "/images/laptops/dell-latitude-5490.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I3-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "67",
+    "name": "DELL LATITUDE 3490",
+    "description": "Professional dell laptop with I3-7TH processor",
+    "price": 6500,
+    "image": "/images/laptops/dell-latitude-3490.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I3-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "68",
+    "name": "DELL INSPIRON 5379",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 11000,
+    "image": "/images/laptops/dell-inspiron-5379.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH 360.\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "69",
+    "name": "DELL INSPIRON 3775",
+    "description": "Professional dell laptop with RAYZEN 5 2500 processor",
+    "price": 10500,
+    "image": "/images/laptops/dell-inspiron-3775.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "RAYZEN 5 2500",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA",
+    "screen_size": "14.1 TOUCH 360.\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "70",
+    "name": "BRAND MODEL",
+    "description": "Professional brand laptop with CPU processor",
+    "price": "PRICE",
+    "image": "/images/laptops/brand-model.jpg",
+    "category_id": {
+      "_id": "2",
+      "name": "BRAND"
+    },
+    "cpu": "CPU",
+    "ram": "RAMGB",
+    "storage": "HDDGB SSD",
+    "graphics": "VGA",
+    "screen_size": "SCREEN\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "71",
+    "name": "DELL LATITUDE 7390",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-7390.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "12.5\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "72",
+    "name": "DELL LATITUDE 7290",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 8500,
+    "image": "/images/laptops/dell-latitude-7290.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "12.5\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "73",
+    "name": "DELL LATITUDE 7390",
+    "description": "Professional dell laptop with I7-8TH processor",
+    "price": 9000,
+    "image": "/images/laptops/dell-latitude-7390.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "12.5\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "74",
+    "name": "DELL LATITUDE 5270",
+    "description": "Professional dell laptop with I7-6TH processor",
+    "price": 0,
+    "image": "/images/laptops/dell-latitude-5270.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I7-6TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "12.5\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "75",
+    "name": "DELL 6230",
+    "description": "Professional dell laptop with I5-3RD processor",
+    "price": 0,
+    "image": "/images/laptops/dell-6230.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "I5-3RD",
+    "ram": "4GB",
+    "storage": "320GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "12.5\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "76",
+    "name": "BRAND MODEL",
+    "description": "Professional brand laptop with CPU processor",
+    "price": "PRICE",
+    "image": "/images/laptops/brand-model.jpg",
+    "category_id": {
+      "_id": "2",
+      "name": "BRAND"
+    },
+    "cpu": "CPU",
+    "ram": "RAMGB",
+    "storage": "HDDGB SSD",
+    "graphics": "VGA",
+    "screen_size": "SCREEN\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "77",
+    "name": "HP ZBOOK G5",
+    "description": "Professional hp laptop with I7-8TH H processor",
+    "price": 22500,
+    "image": "/images/laptops/hp-zbook-g5.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I7-8TH H",
+    "ram": "32GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA P2000 4G",
+    "screen_size": "17.3 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "78",
+    "name": "HP PROBOOK 470 G5",
+    "description": "Professional hp laptop with I5-8TH processor",
+    "price": 11000,
+    "image": "/images/laptops/hp-probook-470-g5.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "graphics": "NVIDIA 2G GEFORCE",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "79",
+    "name": "HP ENVY NOTE BOOK",
+    "description": "Professional hp laptop with I7-6TH HQ processor",
+    "price": 14000,
+    "image": "/images/laptops/hp-envy-note-book.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I7-6TH HQ",
+    "ram": "8G DR3GB",
+    "storage": "512 SSDGB SSD",
+    "graphics": "NVIDIA GEFORCE GTX 950M 4G DR3",
+    "screen_size": "17.3 INCH  \" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "80",
+    "name": "HP LAPTOP 17 BY0XXX",
+    "description": "Professional hp laptop with I5-8TH U processor",
+    "price": 9000,
+    "image": "/images/laptops/hp-laptop-17-by0xxx.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I5-8TH U",
+    "ram": "16GB",
+    "storage": "256 SDDGB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "81",
+    "name": "HP ENVY M7 NOTE BOOK",
+    "description": "Professional hp laptop with I7-6500U processor",
+    "price": 11000,
+    "image": "/images/laptops/hp-envy-m7-note-book.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I7-6500U",
+    "ram": "16GB",
+    "storage": "500 SSDGB SSD",
+    "graphics": "NVIDIA GEFORCE 940 MX 2G DR3",
+    "screen_size": "17.3 INCH TOUCH \" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "82",
+    "name": "HP 735 G5",
+    "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
+    "price": 9500,
+    "image": "/images/laptops/hp-735-g5.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 2700 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 1G",
+    "screen_size": "13.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "83",
+    "name": "HP 735 G6",
+    "description": "Professional hp laptop with RAYZEN 5 3500 U processor",
+    "price": 0,
+    "image": "/images/laptops/hp-735-g6.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 5 3500 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "13.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "84",
+    "name": "HP 745 G6",
+    "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
+    "price": 12000,
+    "image": "/images/laptops/hp-745-g6.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 3700 U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "85",
+    "name": "HP 745 G6",
+    "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
+    "price": 11500,
+    "image": "/images/laptops/hp-745-g6.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 3700 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "86",
+    "name": "HP 745 G6",
+    "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
+    "price": 11500,
+    "image": "/images/laptops/hp-745-g6.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 3700 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "87",
+    "name": "HP 745 G6",
+    "description": "Professional hp laptop with RAYZEN 5 3600 U processor",
+    "price": 10500,
+    "image": "/images/laptops/hp-745-g6.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 5 3600 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 2G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "88",
+    "name": "HP 745 G5",
+    "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
+    "price": 10500,
+    "image": "/images/laptops/hp-745-g5.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 2700 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 1G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "89",
+    "name": "HP MT43",
+    "description": "Professional hp laptop with A8-9TH processor",
+    "price": 6000,
+    "image": "/images/laptops/hp-mt43.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "A8-9TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "90",
+    "name": "HP 745 G3",
+    "description": "Professional hp laptop with A8-8TH processor",
+    "price": 6000,
+    "image": "/images/laptops/hp-745-g3.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "A8-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "91",
+    "name": "HP 745 G4",
+    "description": "Professional hp laptop with A12-9TH processor",
+    "price": 6700,
+    "image": "/images/laptops/hp-745-g4.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "A12-9TH",
+    "ram": "8GB",
+    "storage": "128GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "92",
+    "name": "HP 745 G2",
+    "description": "Professional hp laptop with A10-7TH processor",
+    "price": 5300,
+    "image": "/images/laptops/hp-745-g2.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "A10-7TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "93",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 7 4750 U processor",
+    "price": 13500,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 4750 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "94",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 7 4750 U processor",
+    "price": 13000,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 4750 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "95",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 5 4650 U processor",
+    "price": 12000,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 5 4650 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "96",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 5 4650 U processor",
+    "price": 12500,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 5 4650 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "97",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
+    "price": 10000,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 3 4450 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "98",
+    "name": "HP 845 G7",
+    "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
+    "price": 9500,
+    "image": "/images/laptops/hp-845-g7.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 3 4450 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "99",
+    "name": "HP MT 46",
+    "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
+    "price": 10000,
+    "image": "/images/laptops/hp-mt-46.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 3 4450 U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "100",
+    "name": "HP 845 G10",
+    "description": "Professional hp laptop with RAYZEN 7 7840 U processor",
+    "price": 16000,
+    "image": "/images/laptops/hp-845-g10.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 7840 U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "101",
+    "name": "HP 645 G4",
+    "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
+    "price": 8500,
+    "image": "/images/laptops/hp-645-g4.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 2700 U",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "102",
+    "name": "HP 645 G4",
+    "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
+    "price": 9000,
+    "image": "/images/laptops/hp-645-g4.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "RAYZEN 7 2700 U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "103",
+    "name": "HP MT22",
+    "description": "Professional hp laptop with CELERON 5205 processor",
+    "price": 5300,
+    "image": "/images/laptops/hp-mt22.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "CELERON 5205",
+    "ram": "8GB",
+    "storage": "240GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "104",
+    "name": "HP MT42",
+    "description": "Professional hp laptop with A8-8TH processor",
+    "price": 6000,
+    "image": "/images/laptops/hp-mt42.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "A8-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "AMD",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "105",
+    "name": "HP ZBOOK",
+    "description": "Professional hp laptop with I7-5TH processor",
+    "price": 7500,
+    "image": "/images/laptops/hp-zbook.jpg",
+    "category_id": {
+      "_id": "4",
+      "name": "HP"
+    },
+    "cpu": "I7-5TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "VGA AMD 1G",
+    "screen_size": "14.1\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "106",
+    "name": "BRAND MODEL",
+    "description": "Professional brand laptop with CPU processor",
+    "price": 0,
+    "image": "/images/laptops/brand-model.jpg",
+    "category_id": {
+      "_id": "2",
+      "name": "BRAND"
+    },
+    "cpu": "CPU",
+    "ram": "RAMGB",
+    "storage": "HDDGB SSD",
+    "graphics": "VGA",
+    "screen_size": "SCREEN\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "107",
+    "name": "LENOVO IDEAPAD",
+    "description": "Professional lenovo laptop with I5-7TH processor",
+    "price": 7000,
+    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "108",
+    "name": "LENOVO IDEAPAD",
+    "description": "Professional lenovo laptop with I5-7TH processor",
+    "price": 7000,
+    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "109",
+    "name": "LENOVO L570",
+    "description": "Professional lenovo laptop with I7-7TH processor",
+    "price": 8500,
+    "image": "/images/laptops/lenovo-l570.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I7-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "110",
+    "name": "LENOVO E570",
+    "description": "Professional lenovo laptop with I5-7TH processor",
+    "price": 7500,
+    "image": "/images/laptops/lenovo-e570.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-7TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "111",
+    "name": "LENOVO E560",
+    "description": "Professional lenovo laptop with I7-6TH processor",
+    "price": 7500,
+    "image": "/images/laptops/lenovo-e560.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I7-6TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "112",
+    "name": "LENOVO E560",
+    "description": "Professional lenovo laptop with I5-6TH processor",
+    "price": 6500,
+    "image": "/images/laptops/lenovo-e560.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-6TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "113",
+    "name": "LENOVO W541",
+    "description": "Professional lenovo laptop with I7-4TH processor",
+    "price": 7500,
+    "image": "/images/laptops/lenovo-w541.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I7-4TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "NVIDIA K1100 2G",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "114",
+    "name": "LENOVO W520",
+    "description": "Professional lenovo laptop with I7-2ND processor",
+    "price": 4500,
+    "image": "/images/laptops/lenovo-w520.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I7-2ND",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "VGA",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "115",
+    "name": "LENOVO IDEAPAD 330 17",
+    "description": "Professional lenovo laptop with I5-8TH processor",
+    "price": 8500,
+    "image": "/images/laptops/lenovo-ideapad-330-17.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-8TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "116",
+    "name": "LENOVO 80HQ",
+    "description": "Professional lenovo laptop with I5-6TH processor",
+    "price": 6000,
+    "image": "/images/laptops/lenovo-80hq.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-6TH",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "17.3\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "117",
+    "name": "LENOVO T450",
+    "description": "Professional lenovo laptop with I5-5TH processor",
+    "price": 5300,
+    "image": "/images/laptops/lenovo-t450.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I5-5TH",
+    "ram": "8GB",
+    "storage": "500GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "14.1 TOUCH\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "118",
+    "name": "LENOVO IDEAPAD",
+    "description": "Professional lenovo laptop with A12 processor",
+    "price": 7500,
+    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "A12",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "INTEL",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  },
+  {
+    "_id": "119",
+    "name": "LENOVO IDEAPAD 700",
+    "description": "Professional lenovo laptop with I7-6TH processor",
+    "price": 13000,
+    "image": "/images/laptops/lenovo-ideapad-700.jpg",
+    "category_id": {
+      "_id": "5",
+      "name": "LENOVO"
+    },
+    "cpu": "I7-6TH",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "graphics": "NVIDIA GTX 950 M",
+    "screen_size": "15.6\" Display",
+    "operating_system": "Windows 11 Pro",
+    "weight": "2.5kg",
+    "battery": "65Wh"
+  }
+]

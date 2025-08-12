@@ -1,0 +1,36 @@
+Loaded 5 categories and 114 products
+🚀 Dragon Lap Backend with REAL DATA running on http://localhost:5000
+📱 Frontend should be running on http://localhost:3000
+
+✅ Real laptop data loaded:
+   📂 Categories: 5 (DELL, DELL, HP, LENOVO, ACER)
+   💻 Products: 114 laptops
+
+Available API endpoints:
+  GET  /api - API status with data summary
+  GET  /api/categories - Real laptop brands
+  GET  /api/products - All your real laptops
+  GET  /api/products/:id - Single laptop details
+  POST /api/auth/register - User registration
+  POST /api/auth/login - User login
+  POST /api/orders - Place order
+  GET  /api/admin/orders - Admin orders
+
+🎯 Your actual laptop inventory is now loaded!
+2025-08-12T08:09:28.816Z - GET /api
+2025-08-12T08:09:49.911Z - GET /api/categories
+2025-08-12T08:09:50.786Z - GET /api/categories
+2025-08-12T08:09:50.787Z - GET /api/products
+2025-08-12T08:09:50.790Z - GET /api/categories
+2025-08-12T08:09:50.791Z - GET /api/products
+2025-08-12T08:09:53.336Z - GET /api/products/undefined
+2025-08-12T08:09:53.338Z - GET /api/products/undefined
+2025-08-12T08:10:05.495Z - GET /api/categories
+2025-08-12T08:10:05.498Z - GET /api/categories
+2025-08-12T08:10:05.500Z - GET /api/products
+2025-08-12T08:10:05.502Z - GET /api/products
+2025-08-12T08:10:07.309Z - GET /api/products/undefined
+2025-08-12T08:10:07.311Z - GET /api/products/undefined
+2025-08-12T08:10:38.284Z - GET /api/products
+2025-08-12T08:10:38.350Z - GET /api/products
+2025-08-12T08:10:58.901Z - GET /api/products

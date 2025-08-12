@@ -56,7 +56,7 @@ const ProductCard = ({ product, handleAddToCart }) => {
           cursor: "pointer",
         },
       }}
-      to={`/products/${product.id}`}
+      to={`/products/${product._id}`}
     >
       {/* Stock Status Badge */}
       <Chip
@@ -210,7 +210,7 @@ const ProductCard = ({ product, handleAddToCart }) => {
       >
         <Button
           component={RouterLink}
-          to={`/products/${product.id}`}
+          to={`/products/${product._id}`}
           variant="contained"
           size="small"
           sx={{

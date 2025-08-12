@@ -1,0 +1,14 @@
+🚀 Dragon Lap Backend running on http://localhost:5000
+📱 Frontend should be running on http://localhost:3000
+
+Available API endpoints:
+  GET  /api - API status
+  GET  /api/categories - Product categories
+  GET  /api/products - All products
+  GET  /api/products/:id - Single product
+  POST /api/auth/register - User registration
+  POST /api/auth/login - User login
+  POST /api/orders - Place order
+  GET  /api/admin/orders - Admin orders
+
+💡 Note: Using mock data. Connect MongoDB for full functionality.

@@ -1,0 +1,19 @@
+Loaded 5 categories and 114 products
+🚀 Dragon Lap Backend with REAL DATA running on http://localhost:5000
+📱 Frontend should be running on http://localhost:3000
+
+✅ Real laptop data loaded:
+   📂 Categories: 5 (DELL, DELL, HP, LENOVO, ACER)
+   💻 Products: 114 laptops
+
+Available API endpoints:
+  GET  /api - API status with data summary
+  GET  /api/categories - Real laptop brands
+  GET  /api/products - All your real laptops
+  GET  /api/products/:id - Single laptop details
+  POST /api/auth/register - User registration
+  POST /api/auth/login - User login
+  POST /api/orders - Place order
+  GET  /api/admin/orders - Admin orders
+
+🎯 Your actual laptop inventory is now loaded!

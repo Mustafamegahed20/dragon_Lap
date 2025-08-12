@@ -1,5 +1,6 @@
 const connectDB = require('../../lib/mongodb');
 const Product = require('../../models/Product');
+const mongoose = require('mongoose');
 
 export default async function handler(req, res) {
   // Enable CORS
@@ -14,6 +15,11 @@ export default async function handler(req, res) {
   }
 
   const { id } = req.query;
+
+  // Validate ObjectId format
+  if (!id || !mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(400).json({ error: 'Invalid product ID format' });
+  }
 
   try {
     await connectDB();

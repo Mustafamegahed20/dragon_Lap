@@ -241,7 +241,7 @@ const Home = () => {
               else if (/lenovo/i.test(cat.name)) imgSrc = LenovoLogo;
 
               return (
-                <Grid item xs={12} sm={6} md={8} key={cat.name}>
+                <Grid item xs={12} sm={6} md={8} key={cat._id}>
                   <Card
                     elevation={2}
                     sx={{
@@ -259,7 +259,7 @@ const Home = () => {
                   >
                     <CardActionArea
                       component={Link}
-                      to={`/products?category=${cat.id}`}
+                      to={`/products?category=${cat._id}`}
                       sx={{
                         p: 3,
                         height: "100%",
