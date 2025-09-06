@@ -1,5 +1,25 @@
-const connectDB = require('../lib/mongodb');
-const Product = require('../models/Product');
+import { MongoClient } from 'mongodb';
+
+// MongoDB Atlas connection
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://mustafa-megahed:%40Mmg2841999@cluster0.eqgdedh.mongodb.net/dragonlap?retryWrites=true&w=majority&appName=Cluster0';
+
+let cachedClient = null;
+let cachedDb = null;
+
+async function connectToDatabase() {
+  if (cachedClient && cachedDb) {
+    return { client: cachedClient, db: cachedDb };
+  }
+
+  const client = new MongoClient(MONGODB_URI);
+  await client.connect();
+  const db = client.db('dragonlap');
+
+  cachedClient = client;
+  cachedDb = db;
+
+  return { client, db };
+}
 
 export default async function handler(req, res) {
   // Enable CORS
@@ -14,16 +34,31 @@ export default async function handler(req, res) {
   }
 
   try {
-    await connectDB();
+    const { db } = await connectToDatabase();
 
     if (req.method === 'GET') {
-      const products = await Product.find({}).populate('category_id', 'name');
-      res.json(products);
+      // Get all products
+      const products = await db.collection('products').find({}).toArray();
+      
+      // Get categories for reference
+      const categories = await db.collection('categories').find({}).toArray();
+      const categoryMap = {};
+      categories.forEach(cat => {
+        categoryMap[cat._id?.toString()] = cat;
+      });
+
+      // Add category info to products
+      const productsWithCategories = products.map(product => ({
+        ...product,
+        category_id: categoryMap[product.category_id] || { name: 'Unknown' }
+      }));
+
+      res.status(200).json(productsWithCategories);
     } else {
       res.status(405).json({ error: 'Method not allowed' });
     }
-  } catch (err) {
-    console.error('Products API error:', err);
-    res.status(500).json({ error: err.message });
+  } catch (error) {
+    console.error('API Error:', error);
+    res.status(500).json({ error: 'Failed to fetch products', details: error.message });
   }
 }
