@@ -4,7 +4,9 @@
     "name": "DELL PRE 7740",
     "description": "Professional dell laptop with I5-9TH H processor",
     "price": 17500,
-    "image": "/images/laptops/dell-pre-7740.jpg",
+    "cost_price": 15000,
+    "quantity": 1,
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -19,144 +21,13 @@
     "battery": "65Wh"
   },
   {
-    "_id": "2",
-    "name": "DELL PRE 7730",
-    "description": "Professional dell laptop with I7-8TH H processor",
-    "price": 25000,
-    "image": "/images/laptops/dell-pre-7730.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "I7-8TH H",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "graphics": "AMD WX 7100 8G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "3",
-    "name": "DELL PRE 7730",
-    "description": "Professional dell laptop with I7-8TH H processor",
-    "price": 21000,
-    "image": "/images/laptops/dell-pre-7730.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "I7-8TH H",
-    "ram": "32GB",
-    "storage": "512GB SSD",
-    "graphics": "NVIDIA P3200 6G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "4",
-    "name": "DELL PRE 7730",
-    "description": "Professional dell laptop with I5-8TH H processor",
-    "price": 18500,
-    "image": "/images/laptops/dell-pre-7730.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "I5-8TH H",
-    "ram": "24GB",
-    "storage": "512GB SSD",
-    "graphics": "AMD WX 4150 4G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "5",
-    "name": "DELL PRE 7720",
-    "description": "Professional dell laptop with XEON 1545 V5 processor",
-    "price": 22000,
-    "image": "/images/laptops/dell-pre-7720.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "XEON 1545 V5",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "graphics": "NVIDIA P4000 8G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "6",
-    "name": "DELL PRE 7720",
-    "description": "Professional dell laptop with I7-7TH HQ processor",
-    "price": 23000,
-    "image": "/images/laptops/dell-pre-7720.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "I7-7TH HQ",
-    "ram": "16GB",
-    "storage": "600GB SSD",
-    "graphics": "NVIDIA P4000 8G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "7",
-    "name": "DELL PRE 7720",
-    "description": "Professional dell laptop with I7-7TH HQ processor",
-    "price": 22500,
-    "image": "/images/laptops/dell-pre-7720.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "I7-7TH HQ",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "graphics": "AMD WX 7100 8G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
-    "_id": "8",
-    "name": "DELL PRE 7720",
-    "description": "Professional dell laptop with XEON 1505 V6 processor",
-    "price": 17000,
-    "image": "/images/laptops/dell-pre-7720.jpg",
-    "category_id": {
-      "_id": "1",
-      "name": "DELL"
-    },
-    "cpu": "XEON 1505 V6",
-    "ram": "16GB",
-    "storage": "512GB SSD",
-    "graphics": "NVIDIA M1200 4G",
-    "screen_size": "17.3\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "9",
     "name": "DELL PRE 7720",
     "description": "Professional dell laptop with I5-7TH HQ processor",
     "price": 14500,
-    "image": "/images/laptops/dell-pre-7720.jpg",
+    "cost_price": 14000,
+    "quantity": 2,
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBAQEhMWFRUXFRUVFRUVEhgSFRAVFRYYFhcVFRYYHiggGBolGxgVITEhJSktLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGi4iHh8tNy0tKysxLS4tNystLS0tMC0rKy01LS8tLSsyLSsvKy0tMC0rLS0tLS0tLTUtLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAAcBAAAAAAAAAAAAAAAAAQIDBAUGCAf/xABOEAABAwEDBggKBQsDAwUAAAABAAIDEQQSIQUTMUFRkQYiUmFxgaHTBxQyU1STlLHB0SNCktLwCBUWJDNiY3Ki4eJzpMJksvEXQ4Kjs//EABoBAQADAQEBAAAAAAAAAAAAAAABAgMFBAb/xAAsEQACAgEDAwIEBwEAAAAAAAAAAQIRAwQSITFBUWFxBRORsRQyocHR4fCB/9oADAMBAAIRAxEAPwD3FERAEREARFZ5Yt4s9nntDhURRSSkDS4MaXUHTRAXiLnK1eEnK8jy8Woxg6GRxRXWDYC5pcesqmOH+WPTZPVw92poHSKLm8cPcr+myerh7tTDh5lf02T1cPdpRFnRyLnMcO8r+myerh7tRHDrK3psnq4e7ShZ0Wi52/TnK3psnq4e7Uf04yt6bJ6uHu0oWdEIueP04yt6dJ6uHu0/TfK3psnq4e7ShZ0Oi55PDbK3p0nq4e7UP03yt6bJ6uHu0oWdDoud/wBOMremyerh7tQ/TnK3psnq4e7ShZ0Si51PDrK3psnq4O7UDw7yv6bJ6qDu0oWdFoucjw9yv6bJ6qDu1A8Pssemv9VB3aULOjkXN58IGWPTn+qg7tS/+oWWfTn+ps/dpRJ0ki0HwT8MJ7fHaI7RQywln0jWhucZJepVowDgWGtKDEYLflACIiAIiIAiIgCIiAIiIAtf8IDqZKyif+mmG9hC2Bax4TX0yRb+eKn2nBvxQHMlomLQ2n40Kj44/aNymtJ0K3wXpi4VyYyU74K4tr9o3BTC2v29gVuKKNQrbsZSplx47JtG4KPj0m0bgra8FX8VfyT2fNTuxishOLfJt7Aoi3ybewK1cQCQdIUA8JvxehG3IXnj0u0bgnj0u3+kK1EgVWGQE0VovE3RWXzErK4tsm3sCmFsk29gUGtGxVRCPxivQsEX2MHna7knjUm3sCh4zJt7Aq7bMelTiznWFf8ADLwU/EvyWZtMm3sCputcm3sCyPilVSksJUPS+hMdV6libXJt7AoeNybewKo+GiplixeFLsbLM33IeNP29gUYrQ4uaCdY1DapbigxvGb0j3qrxquhZZHfU9f8AL/1i3jbHCdzpB8V7SvDvAI/9dtQ2wA7pB817ivAz2hERQAiIgCIiAIiIAiIgC0/wuSXcjW3nEY3ysC3BaJ4bH0yNaBtfAP/ALmH4IDnOWQjQdIoecLJus8bbJFLnDfLqOZmWuaxtTRwcRxjzVWIlOjoWyWyemTrI3POpercEdM0TXjB9BfrsrgtscYtS3eOPcyyOScdq78+xrUlKmhqNtKdilU85BcSHF1cSSKVOvWpFiagBejS2CE3SGxt4oqAztOGledxeU3pHvXp8uTrSPFxRgzzwxhEjtOHlY4aRqXS+HZ8WOTjN8yquDw6/S5ssN+NWo3fKX789H0Me/J8YFQGHoZT3hULRY2hrjcboP1Qr6ezzslfE4gOaGnS41DxeFKDZQ9apSxSlpBe0AgjG/TEdC7lxa4X6HAqSfLr/peZL4NmeKaVjGUj01a3ElrnUqf5QP8A5BajlWBpnY0AD6MnAAfWWwSuOgBnS0ux3rEWhxFrZWn7I8/1udY6iFrno2uxtp50+OqT7lqLCdSmFkeNSzsT28kbqe5XsNzW3tW0dLHyYz1kl1RrTIjsKuYmLY2QwnSCOghXD8mw0aQ92IrjGMMSNIcdmxXWFRMHq93Y1+OMHSFcNsrD+KrNRZMZymnpq34LJT5FjI+jZWl0Gjwcc1G40qcRVzt6s5wjwzL5jkm49vHJqMmQ2v0ELE5R4L2mIF+bcWcsNJaOkjQt9GQ5NQc3pjPvVtlPJ88cEzi4FojdWjjoIpoKxzQxTXDVm+nz5oyXdHmbolJmhUdIV7I4bFbyELnSgjsRmzfvAPJTKczdtmf2SRr3tc9eA99MsHns8w/rjPwXQq4jO0ERFACIiAIiIAiIgCIiALz3w6Ppklw2zRDtJ+C9CXmX5QElMmwDlWpg3RTO+CA5/etlyjaiLDYmZ52DqlubpmTcNCHYXqjnWtOWWtNundDZ43PjDIh9HhR2jGuGOnWtIOFS3LnsUk8ia2vjv7GKmdVxN69z0pXqUqnkmc6lTWmjAD3KRZlyeDy2fzN94W9cIJbNFFZ3xzSPcT9KAXExGg8munS7RXQtJyc6k0B0UljNdlHg1XrOQ+Fcz5LQK5wXiWOc4MYWmjgAHcYYOGB+FEeohii9y57PuvZ/w0Q4Tl0k0u65p+/b62a3DamukmpJocW3pH4vo51CC444UFeZTPmbXy2nocFkctPLp6ueSCxum67NgvkN0XQAQK4a1HhTk2OzuLGPvgxkk7DVwwNAHAgAgjbr0n6P4flvTQd3ab/XyfN63GnnnS4TX6+hi88zlN+0FjMp3RamUe1wzWlpqKl2jpWz2DJrZI5JDNGwtrRjnta59G3tBcDTUKA44YaVquU4g60sBFRmv+S31Mm0kn0kjPSxpttdUzI2Vw2q+jKxEVgi5HafmrtmT4eQN5+a9GNzrovr/R58qhfV/T+zKxlX7TxWdB/7isJHYYuQN5WTiskdxrbopidempWrcvB4sihT5f0/svGrMWF3Fd/MP/xiWAZYY+T2n5rMDJcbQQRWpYfKOuGI7ecrzZ+yJ0u1bnb+nr7mcsrjqUvCkk5Ptmn9i/sFVjrNkiA/U/rf81PlzI1nFitThHRwhkIN5xoQ000lc3KuTtadqjxV7yqJKuJGK2NVErPXCjdPAu+mWoxtZOP6SfgujVzR4JJKZcsf7xnG+CU/ALpdcWXU666BERQSEREAREQBERAEREAXlP5Qz/1Kxjbaa7oZB8V6svI/yh5PoLC3bLI77LAP+SIHhz1mso5fMrIonRMAjp9a9eowMxqCBgFhJNfR8Fn8tWUxiGubdea5wDnEBo4mH1cRX3rSONyjKXj9zOU0pRi+r/YwcsgLrwAGjAAUw5qUUhNfxRXZoATdi+2Serj4q2kfXUB0V+JKzNBCaOacMHA46MDrpqWedwklaRdZHhrY1wFesD3LDWAfSxfzs/7gt5qvZpvhsdXFuTqv95R4NZrvwzS23frRr36TzVJMbXEho4wJ8mtPepZuEsrmluajFdYaQQtttFma2ON4eCXaW7O3qVjO6jHHmPuXTjosmLFWPI6iuFRz3q8c8q341ba5vyYCThLKf/bYOgEKFmt7p7QHuaGkR3aNFBQEY9OK3bKWUA6Sx0sTm3XA3C0DxkXDo4uPNgfKxrr1bhFaj48XiMwcT9noLONzaNugLnYNVmnKPzW+vT/UdfU6PTYoS+U03X+7syMUJV7HAf8AytbbbjtJ6SqjbcdS+gjqII+anpsjNpjg/ebvV+BGGs+lZooRU4G8Ts2UWmMtjiruKclarKpdDzS0rV7uTa2yM5RPQ0Ee9ZU2xrAC4E1u0q4NoBFGMcCtJY/nVxG/VeIGyqmWNToyUPlp7eLNvZl+Jupv9TvcqeVOEbZIJ4mg8eN7cGgDFp24rXmSsHlHfQqlauEVmiaQ2ISPoQHFxDW1FPJbSqwy4MUVbRtgy5ZS2r7fwaa8KhIxTzTaVbkrnzaO1BMz/g0dTLdgP8Rw3wvHxXT65Z4BSXcsWA/x4x9oXfiuplxJ/mZ2Y9EERFUsEREAREQBERAEREAXjH5RUmOTW81pO7MAe8r2deIflEu+mycP4doO90XyUoHk0rY82CHOzlTebd4obTAh1cTzUV/ljI0sJjD3NN9l9ov6G4a3HTzcysHVLWi6AL2DqYu5idi2LhbZyJIR4uGfR+SHHjVPlmlNPwW0IJ4pyfavuYTm1lhFd7+xrMjC00NOoh3aCpVNLpOF3mqTTepVgblxk79tF/O33rd8+/Tdj+w773OtJyX+2i/mC3pttLGOjD2Fria0cCfJLduAx66DYF2fhjShL38nG+JpucfbxZCxwSSl9C0UI0RvdpFfqk0VvlFskcUpcB5DjQsIOGypw0UqrjJs7BnOMwcZul4B8mmvVj2BW+WrQx0M1CKljsKjZqAXj1GtzrNKClxdHMSe6PHddjGScLrY90Uhukw+Qc226yopiAKGv71a66rF5SypJaJjNJS8W0JGFcVcWW0mKGWO5E+/TjXjfbQh3EporQA7RgsQMD1fFWko7lLvZ39n2Lxj1WEisQ9Th69SmeZwMgyZXUVoWIEqmz61jmoxlhszrbTzqWXKNNCwhtCpPtCu9W0uCi0ib5MlNlFx1q1fKrIyqBkXnlncup6Y4FHoV3vUl5Ur6heWTkaqBmuCslMp5OP/AFdl3Z5gK6xXIuQHUtthOy0WY7pmrrpc7J+Znvh+VBERULBERAEREAREQBERAF4T+UK/9csbdkDz9p9P+K92XgP5QElco2duyzN7ZJPkpQNAssdnPi96V14yPzrSy6yFg8lzX/WJ09iyOUBZpHYyAgYDjV0gE44VxqNA0LX0Vk2k1fDKuKbuuUZcWWy8sb/7qTxez7R9v+6xaKtFjKshs4IIIqP3/wC6q2ieMRuLXNvUNBWtcMO1YVFZWujNIZ8mNVCTXszIwZTc17Wh/EOLjmxUHEYYczd/WsnYcowOs1pdNPI2dpdmGNiBZKA2rb5umhLsNIWtoodtVZ5pYoSn8xq5db735NgtuXHNhs7op78rr2eYYLohoGloBI42JeMCfJrhWiwVtt0srg9+JAu4NpgCT8SpFd5PfAC7PNe4U4tw0INdtdnT0LOOKMXcVTPVk1GXIts5Nr1ZYXnfgKOcd+AspbH2QtdmmyNd9W9Qjyjp43JoNdKa6rHLbfLyefZHwSX3fgJfcp0TfLyNkfBTvOUDVVUTdLyTtj4KQqql1t2t5169S7cwuU8q9e01+rTr1KKJul5G1eCF0YcY1vUPFoLvKrXsVdsUV6O89128A8t4zmsOlzQWjEYqiibpeRtXgv7K5jbVEYyXMbM0sc4XXOa2WrS4aiW0JHOuvVxtE6jmnYQdxquyGmoBVGSiKIigkIiIAiIgCIiAIiIAvEPDvkeUWqK2XSYXQtiLqVEb2Pe6jtlQ/DoK9vXN3hN4QvteUJwHnMxOMUYrRvE4rndbr3VRSgae1rXENBaCSBWlaVOzWrv80O8431X+SoXaHE9qq3+ftUkE/wCaD5xvqv8ANPzQfON9T/mpb/P2qa9z9qkEfzOfON9T/mojIx8431P+ahe5+1RLucb0BSNgd5tx582cexPEH+ad6s/JDCOb+yGEbQoA8Qf5p3qz8k8Qf5p3qz8lEw84QwdG3q2oCHiD/NO9WfkniD/NO9WfkomDXh80MPOEBDxB/mnerPyUPEX+ad6s/JRMOuo+aiYMK4U26kBUhyTeFXOzf7pgvHpqXt9yqfmVvnf9sO9VNgoK6tupTAmldW3UgI/mZvnv9sO9T8zN89/th3qkD9df7KAk50BU/MzfPf7Yd6rW22JsV3jh1a6YxHSlP3nV0qrnRtVKZ1aCvagJ8k5JktcrbNZ23pH8UXRW6Dpc46mjSSutY20AGwAblyS2dzXh8ZuEUIuuNWkDSKmunHrXTXAbLfjmT7NaCeOW3ZP9RnFfvIr0EKGSZ5ERQAiIgCIiAIiIAiIgMHw1yx4pYLRaAeMGXY+eR/FZ2mvUuYJIySG6TpxNK9J3r1/w4ZXq6z2Jp0fTSdJq1gP9Z3LyZsRdeddDgNppT8YKyILR0DhhSnNeqDs+CnZFeBpgMK1dp20GvWq2a/hj7X91ER3dLAa4DHRpO+gUgpsivcUAAgUJL6Bx0416Qosi0R0x1kuoCNQO4q4MBaalgIGqoOnnGnT2KcWUm64MFNNLwqcRuwvb0Batjui6RWpH1jQU1U61ObPcvXgHDQKOqBWgHSrlsF8FzWNb1jZXAadinbBevNbGAQNJcKA0046SgLQWct4xHFpUtDzoFdPZgjbISAQBTEUvaaEYU2Uqr+Ozi82MxitdN4Ygk0rU00DsU81nawGrA6pONaUpjho04qa4si+aMd4uXA3RdFThfNMRgKa9IUTZ6kta2miov1wwr09CyD7GWEudG0ilKBw4uDQNBoTpUzbGTceI23dN28Ku01rQ1GrSoJMa2z+SylCRQkvo06T1DDRzKBs90BpbiTSt7AgkACnX2q/FmvtqxgGOkuGPFJA26wo+L3i5oiAOvjDAVBNMUBjnWYsDqio0YONKbOcKBspbUkYEaLxwGB69eCyDbPQtYYwXUAreFCcccegqR1nuDjMB57w2Vpj1oCyZZzg4NwxF28aHSCMOpQuXgSGAY0wcRicdqyRsLmEl0TXXhUC9oxJrgRqp2qk6zfwh1OCAsYIsXC7eNMBUilDQ6NOBCpCzm9SlDQ4VIOGOner4wcYAsGJoG15QwNekdipyw0oSwAVGBOnm5sKoCzzJvAU04DHSelSSxEEEinSTU1/uryezkV4gFNOIOjVgpZrPUEhlARUEGoAOOCgFq1hBrTtqvYPAVle6+0WJxwcM9H0ijZBuuHqK8mxI0doWa4J5WNktVntOqN4v87DxXj7JKA6gRQY4EAg1BFQdoKiqkhERAEREAREQBQe4AEnAAVJ2AKK1HwpZY8WydKAaPm+hZt44N4/ZDuxAeI8K8rG1Wu0WnU95DOZg4rP6QCsQLOSAc0/HWCRWorhxqKq0KdrRsViCi2yuFSY5KY4VOGA08bpQwkHFjwKaHGpNdYq7m7VctaNiqtaFILeVrDdzccgpic5JeBIqcMejSj7tMI5AaYccgV1V4+AV40BTFoQFm18YwLX1/dcQCBgKAOGqiqCaHkSdTqE9JD8Vdti5+133lOIuftd95AWrHxHRHKeetSKc9+o0nep78QxMUuzjGunDW/BXTI6ax2n4qcx10kdurHagLITQ8iXreSNxegmg5E3U8gdQD8FfCLn7XfeUc1z9rvvICxgDaYxvJ4uMbyAOK0UIDxjWurYohjQamJ5bjQB5Dh5PlEPBOvWVfsYBXp58cBtJUSAhBjJAwYhjmgXamR7hjWmDmuJAxOKkcYifKjpsE0khNQRQBw04rKEBSFo2IDEscygvObWgrW0SA111GoqVpYDUkUx0zSBpxwuuGmnRrWWLRsVNwGxCTFuumt26ddGyOecCDS8aU170kuebk6CajteVkSBsVNwCAxrrvIk63V/5Km1rQKFr64+SeLzfWHuWSLQqbgEBYRvLQRdNCSRgDQHrUYTicCK7fx0q6LQpCEB794LMseM5OiBNXw/Qu28QC4fsFu4rb14d4GssZq2uszjxZ20H+pHVzd7b43L3FVZIREUAIiIAiIgC8O8M+WM7bWWZp4sDcf8AUko47m3d5XtOUbYyGGWZ5o2Njnu6Giq5ct9rfNNLO/ypHue7pca06tClAptKnBVIKcKSCq1yqByoBTAqQXDXKYOVAFLxQF2HqcPVmHFRLjRAXokUwkVmHFC84dOPRQ/2QF8JFHOKyvqN9AXQk0/jUFHOK0a849PwCjfQFwZFKXqhfULyArF6kL1TLlKXICoXKQuUhcpCUBMXKQlQJUhKAiSpHFRKkKAq2K2PhlimZ5Ub2vb0tNaLqLJttZPDFOw1bIxr29DhVcrEL27wK5YzljfZXHjQPw/05KuG518blVg9EREUEhERAEREBh+F9hdPYbTCwXnOjNG8oihu47aU614PlGxWWF118bmnWDNcoehzSQukFAgHSpTBzNesWw+0t+4oiSw8k+0t+4uls03YNwTNN2DcFNkUc1CSw8k+1N+4phLYeSfam92uk803YNwTNN2DcEsHNwmsPId7W3u1MJrDyHe1t7tdH5puwbgmabsG4KLFHOOesPId7W3u1ET2HkO9rb3a6Ozbdg3Jm27BuSwc5Z+w8h3tbe7Uc/YeQ72pvdrozNt2DcmbbsG5LBznnrDyHe1N7tRz1h5Dvam92ui823YNyZtuwbksUc6Z+w8l3tTe7UM/YeQ72tvdrozNt2DcmbbsG5LFHOefsPIPtbe7UM/YeQ72tvdro3Nt2DcmbbsG5LBzjn7DyD7W3u1Az2HkH2tvdro/Nt2DcmbbsG5LBzfnrByD7W3u1AzWDkH2tvdrpHNt2DcmbbsG5LFHNhlsPIPtTe7UucsPJPtTfuLpXNt2Dcpcy3kjcFNg5sv2Hkn2lv3FAmw4YHn/AFhuH9GK6U8XZyW/ZCh4tHyG/ZCWKObKWImgBONB+sNx6ri9P8FWRDFLPO2NzI3RtaC6v0hLr2BOmgGkYYr0ZkLRoaB0ABTqLJCIigBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH//Z",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -175,7 +46,7 @@
     "name": "DELL PRE 7720",
     "description": "Professional dell laptop with XEON 1535 V6 processor",
     "price": 13500,
-    "image": "/images/laptops/dell-pre-7720.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -194,7 +65,7 @@
     "name": "DELL PRE 7710",
     "description": "Professional dell laptop with XEON 1505 V5 processor",
     "price": 19500,
-    "image": "/images/laptops/dell-pre-7710.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -213,7 +84,7 @@
     "name": "DELL PRE 7710",
     "description": "Professional dell laptop with I7-6TH HQ processor",
     "price": 19500,
-    "image": "/images/laptops/dell-pre-7710.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -232,7 +103,7 @@
     "name": "DELL PRE 7710",
     "description": "Professional dell laptop with I7-6TH HQ processor",
     "price": 14500,
-    "image": "/images/laptops/dell-pre-7710.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -251,7 +122,7 @@
     "name": "DELL PRE 7710",
     "description": "Professional dell laptop with I7-6TH HQ processor",
     "price": 13000,
-    "image": "/images/laptops/dell-pre-7710.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -270,7 +141,7 @@
     "name": "DELL INSPIRON 5759",
     "description": "Professional dell laptop with I7-6500U processor",
     "price": 11500,
-    "image": "/images/laptops/dell-inspiron-5759.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -289,7 +160,7 @@
     "name": "DELL INSPIRON 5770",
     "description": "Professional dell laptop with I7-8TH U processor",
     "price": 15000,
-    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -308,7 +179,7 @@
     "name": "DELL INSPIRON 5770",
     "description": "Professional dell laptop with I7-8TH U processor",
     "price": 11000,
-    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -327,7 +198,7 @@
     "name": "DELL INSPIRON 5770",
     "description": "Professional dell laptop with I3-8TH U processor",
     "price": 6500,
-    "image": "/images/laptops/dell-inspiron-5770.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -346,7 +217,7 @@
     "name": "DELL INSPIRON 3793",
     "description": "Professional dell laptop with I7-10TH G7 processor",
     "price": 19500,
-    "image": "/images/laptops/dell-inspiron-3793.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -365,7 +236,7 @@
     "name": "DELL INSPIRON 5767",
     "description": "Professional dell laptop with I7-7TH U processor",
     "price": 14000,
-    "image": "/images/laptops/dell-inspiron-5767.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -384,7 +255,7 @@
     "name": "DELL INSPIRON 3780",
     "description": "Professional dell laptop with I5-8TH U processor",
     "price": 11500,
-    "image": "/images/laptops/dell-inspiron-3780.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -403,7 +274,7 @@
     "name": "DELL INSPIRON 3793",
     "description": "Professional dell laptop with I5-10TH G1 processor",
     "price": 15500,
-    "image": "/images/laptops/dell-inspiron-3793.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -422,7 +293,7 @@
     "name": "DELL PRE M6800",
     "description": "Professional dell laptop with I7-4TH processor",
     "price": 8500,
-    "image": "/images/laptops/dell-pre-m6800.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -441,7 +312,7 @@
     "name": "DELL PRE M6800",
     "description": "Professional dell laptop with I7-4TH processor",
     "price": 8900,
-    "image": "/images/laptops/dell-pre-m6800.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -456,30 +327,11 @@
     "battery": "65Wh"
   },
   {
-    "_id": "25",
-    "name": "BRAND MODEL",
-    "description": "Professional brand laptop with CPU processor",
-    "price": "PRICE",
-    "image": "/images/laptops/brand-model.jpg",
-    "category_id": {
-      "_id": "2",
-      "name": "BRAND"
-    },
-    "cpu": "CPU",
-    "ram": "RAMGB",
-    "storage": "HDDGB SSD",
-    "graphics": "VGA",
-    "screen_size": "SCREEN\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "26",
     "name": "DELL XPS 9575",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 21000,
-    "image": "/images/laptops/dell-xps-9575.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -498,7 +350,7 @@
     "name": "DELL PRE 5520",
     "description": "Professional dell laptop with XEON 1505 processor",
     "price": 0,
-    "image": "/images/laptops/dell-pre-5520.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -517,7 +369,7 @@
     "name": "DELL PRE 7510",
     "description": "Professional dell laptop with I7-6TH HQ processor",
     "price": 13500,
-    "image": "/images/laptops/dell-pre-7510.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -536,7 +388,7 @@
     "name": "DELL PRE 3560",
     "description": "Professional dell laptop with I7-11TH G7 processor",
     "price": 22000,
-    "image": "/images/laptops/dell-pre-3560.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -555,7 +407,7 @@
     "name": "DELL PRE 3551",
     "description": "Professional dell laptop with I7-10TH H processor",
     "price": 25500,
-    "image": "/images/laptops/dell-pre-3551.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -574,7 +426,7 @@
     "name": "DELL PRE 3541",
     "description": "Professional dell laptop with I7-9TH H processor",
     "price": 20500,
-    "image": "/images/laptops/dell-pre-3541.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -593,7 +445,7 @@
     "name": "DELL PRE 3540",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 15000,
-    "image": "/images/laptops/dell-pre-3540.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -612,10 +464,10 @@
     "name": "DELLL 3500",
     "description": "Professional delll laptop with I7-8TH U processor",
     "price": 14000,
-    "image": "/images/laptops/delll-3500.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "3",
-      "name": "DELLL"
+      "name": "DELL"
     },
     "cpu": "I7-8TH U",
     "ram": "16GB",
@@ -631,7 +483,7 @@
     "name": "DELL 5590",
     "description": "Professional dell laptop with I7-8TH U processor",
     "price": 14500,
-    "image": "/images/laptops/dell-5590.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -650,7 +502,7 @@
     "name": "DELL 5590",
     "description": "Professional dell laptop with I7-8TH U processor",
     "price": 13000,
-    "image": "/images/laptops/dell-5590.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -669,7 +521,7 @@
     "name": "DELL LATITUDE 5591",
     "description": "Professional dell laptop with I5-8TH H processor",
     "price": 12500,
-    "image": "/images/laptops/dell-latitude-5591.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -688,7 +540,7 @@
     "name": "DELL PRE 3530",
     "description": "Professional dell laptop with I5-8TH H processor",
     "price": 14500,
-    "image": "/images/laptops/dell-pre-3530.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -707,7 +559,7 @@
     "name": "DELL 3530",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 11000,
-    "image": "/images/laptops/dell-3530.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -726,7 +578,7 @@
     "name": "DELL LATITUDE 5511",
     "description": "Professional dell laptop with I7-10TH H processor",
     "price": 19500,
-    "image": "/images/laptops/dell-latitude-5511.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -745,7 +597,7 @@
     "name": "DELL LATITUDE 5520",
     "description": "Professional dell laptop with I5-11THG7 processor",
     "price": 14500,
-    "image": "/images/laptops/dell-latitude-5520.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -764,7 +616,7 @@
     "name": "DELL LATITUDE 5500",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 0,
-    "image": "/images/laptops/dell-latitude-5500.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -783,7 +635,7 @@
     "name": "DELL LATITUDE 5591",
     "description": "Professional dell laptop with I5-8TH H processor",
     "price": 9500,
-    "image": "/images/laptops/dell-latitude-5591.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -802,7 +654,7 @@
     "name": "DELL LATITUDE 5590",
     "description": "Professional dell laptop with I5-8TH processor",
     "price": 9500,
-    "image": "/images/laptops/dell-latitude-5590.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -821,7 +673,7 @@
     "name": "DELL LATITUDE 3590",
     "description": "Professional dell laptop with I5-8TH U processor",
     "price": 9500,
-    "image": "/images/laptops/dell-latitude-3590.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -840,7 +692,7 @@
     "name": "DELL LATITUDE 5570",
     "description": "Professional dell laptop with I3-6TH processor",
     "price": 6000,
-    "image": "/images/laptops/dell-latitude-5570.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -859,7 +711,7 @@
     "name": "DELL LATITUDE 5590",
     "description": "Professional dell laptop with I3-7TH processor",
     "price": 6500,
-    "image": "/images/laptops/dell-latitude-5590.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -878,7 +730,7 @@
     "name": "DELL INSPIRON 5555",
     "description": "Professional dell laptop with A10-8700 processor",
     "price": 6000,
-    "image": "/images/laptops/dell-inspiron-5555.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -897,7 +749,7 @@
     "name": "DELL LATITUDE 3576",
     "description": "Professional dell laptop with I5-8TH U processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-3576.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -916,7 +768,7 @@
     "name": "DELL LATITUDE 5566",
     "description": "Professional dell laptop with I7-7TH U processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-5566.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -935,7 +787,7 @@
     "name": "DELL 5550",
     "description": "Professional dell laptop with I5-5TH processor",
     "price": 5700,
-    "image": "/images/laptops/dell-5550.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -954,7 +806,7 @@
     "name": "DELL LATITUDE 6540",
     "description": "Professional dell laptop with I7-4TH processor",
     "price": 4700,
-    "image": "/images/laptops/dell-latitude-6540.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -973,7 +825,7 @@
     "name": "DELL LATITUDE 6520",
     "description": "Professional dell laptop with I7-2ND processor",
     "price": 3800,
-    "image": "/images/laptops/dell-latitude-6520.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -988,30 +840,11 @@
     "battery": "65Wh"
   },
   {
-    "_id": "53",
-    "name": "BRAND MODEL",
-    "description": "Professional brand laptop with CPU processor",
-    "price": "PRICE",
-    "image": "/images/laptops/brand-model.jpg",
-    "category_id": {
-      "_id": "2",
-      "name": "BRAND"
-    },
-    "cpu": "CPU",
-    "ram": "RAMGB",
-    "storage": "HDDGB SSD",
-    "graphics": "VGA",
-    "screen_size": "SCREEN\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "54",
     "name": "DELL LATITUDE 7410",
     "description": "Professional dell laptop with I5-10TH U processor",
     "price": 12500,
-    "image": "/images/laptops/dell-latitude-7410.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1030,7 +863,7 @@
     "name": "DELL LATITUDE 7400",
     "description": "Professional dell laptop with I5-8TH processor",
     "price": 8500,
-    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1049,7 +882,7 @@
     "name": "DELL LATITUDE 7400",
     "description": "Professional dell laptop with I5-8TH processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1068,7 +901,7 @@
     "name": "DELL LATITUDE 7400",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 10000,
-    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1087,7 +920,7 @@
     "name": "DELL LATITUDE 7400",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 9500,
-    "image": "/images/laptops/dell-latitude-7400.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1106,7 +939,7 @@
     "name": "DELL LATITUDE 7490",
     "description": "Professional dell laptop with I5-8TH processor",
     "price": 8500,
-    "image": "/images/laptops/dell-latitude-7490.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1125,7 +958,7 @@
     "name": "DELL LATITUDE 7480",
     "description": "Professional dell laptop with I7-7TH processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-7480.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1144,7 +977,7 @@
     "name": "DELL LATITUDE 7480",
     "description": "Professional dell laptop with I5-7TH processor",
     "price": 8000,
-    "image": "/images/laptops/dell-latitude-7480.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1163,7 +996,7 @@
     "name": "DELL LATITUDE 5470",
     "description": "Professional dell laptop with I7-6TH U processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1182,7 +1015,7 @@
     "name": "DELL LATITUDE 5470",
     "description": "Professional dell laptop with I5-6TH HQ processor",
     "price": 8000,
-    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1201,7 +1034,7 @@
     "name": "DELL LATITUDE 5470",
     "description": "Professional dell laptop with I7-6TH HQ processor",
     "price": 7500,
-    "image": "/images/laptops/dell-latitude-5470.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1220,7 +1053,7 @@
     "name": "DELL LATITUDE 5480",
     "description": "Professional dell laptop with I5-7TH processor",
     "price": 5000,
-    "image": "/images/laptops/dell-latitude-5480.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1239,7 +1072,7 @@
     "name": "DELL LATITUDE 5490",
     "description": "Professional dell laptop with I3-7TH processor",
     "price": 7000,
-    "image": "/images/laptops/dell-latitude-5490.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1258,7 +1091,7 @@
     "name": "DELL LATITUDE 3490",
     "description": "Professional dell laptop with I3-7TH processor",
     "price": 6500,
-    "image": "/images/laptops/dell-latitude-3490.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1277,7 +1110,7 @@
     "name": "DELL INSPIRON 5379",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 11000,
-    "image": "/images/laptops/dell-inspiron-5379.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1296,7 +1129,7 @@
     "name": "DELL INSPIRON 3775",
     "description": "Professional dell laptop with RAYZEN 5 2500 processor",
     "price": 10500,
-    "image": "/images/laptops/dell-inspiron-3775.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1311,30 +1144,11 @@
     "battery": "65Wh"
   },
   {
-    "_id": "70",
-    "name": "BRAND MODEL",
-    "description": "Professional brand laptop with CPU processor",
-    "price": "PRICE",
-    "image": "/images/laptops/brand-model.jpg",
-    "category_id": {
-      "_id": "2",
-      "name": "BRAND"
-    },
-    "cpu": "CPU",
-    "ram": "RAMGB",
-    "storage": "HDDGB SSD",
-    "graphics": "VGA",
-    "screen_size": "SCREEN\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "71",
     "name": "DELL LATITUDE 7390",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-7390.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1353,7 +1167,7 @@
     "name": "DELL LATITUDE 7290",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 8500,
-    "image": "/images/laptops/dell-latitude-7290.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1372,7 +1186,7 @@
     "name": "DELL LATITUDE 7390",
     "description": "Professional dell laptop with I7-8TH processor",
     "price": 9000,
-    "image": "/images/laptops/dell-latitude-7390.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1391,7 +1205,7 @@
     "name": "DELL LATITUDE 5270",
     "description": "Professional dell laptop with I7-6TH processor",
     "price": 0,
-    "image": "/images/laptops/dell-latitude-5270.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1410,7 +1224,7 @@
     "name": "DELL 6230",
     "description": "Professional dell laptop with I5-3RD processor",
     "price": 0,
-    "image": "/images/laptops/dell-6230.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "1",
       "name": "DELL"
@@ -1425,30 +1239,11 @@
     "battery": "65Wh"
   },
   {
-    "_id": "76",
-    "name": "BRAND MODEL",
-    "description": "Professional brand laptop with CPU processor",
-    "price": "PRICE",
-    "image": "/images/laptops/brand-model.jpg",
-    "category_id": {
-      "_id": "2",
-      "name": "BRAND"
-    },
-    "cpu": "CPU",
-    "ram": "RAMGB",
-    "storage": "HDDGB SSD",
-    "graphics": "VGA",
-    "screen_size": "SCREEN\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "77",
     "name": "HP ZBOOK G5",
     "description": "Professional hp laptop with I7-8TH H processor",
     "price": 22500,
-    "image": "/images/laptops/hp-zbook-g5.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1467,7 +1262,7 @@
     "name": "HP PROBOOK 470 G5",
     "description": "Professional hp laptop with I5-8TH processor",
     "price": 11000,
-    "image": "/images/laptops/hp-probook-470-g5.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1486,7 +1281,7 @@
     "name": "HP ENVY NOTE BOOK",
     "description": "Professional hp laptop with I7-6TH HQ processor",
     "price": 14000,
-    "image": "/images/laptops/hp-envy-note-book.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1505,7 +1300,7 @@
     "name": "HP LAPTOP 17 BY0XXX",
     "description": "Professional hp laptop with I5-8TH U processor",
     "price": 9000,
-    "image": "/images/laptops/hp-laptop-17-by0xxx.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1524,7 +1319,7 @@
     "name": "HP ENVY M7 NOTE BOOK",
     "description": "Professional hp laptop with I7-6500U processor",
     "price": 11000,
-    "image": "/images/laptops/hp-envy-m7-note-book.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1543,7 +1338,7 @@
     "name": "HP 735 G5",
     "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
     "price": 9500,
-    "image": "/images/laptops/hp-735-g5.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1562,7 +1357,7 @@
     "name": "HP 735 G6",
     "description": "Professional hp laptop with RAYZEN 5 3500 U processor",
     "price": 0,
-    "image": "/images/laptops/hp-735-g6.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1581,7 +1376,7 @@
     "name": "HP 745 G6",
     "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
     "price": 12000,
-    "image": "/images/laptops/hp-745-g6.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1600,7 +1395,7 @@
     "name": "HP 745 G6",
     "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
     "price": 11500,
-    "image": "/images/laptops/hp-745-g6.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1619,7 +1414,7 @@
     "name": "HP 745 G6",
     "description": "Professional hp laptop with RAYZEN 7 3700 U processor",
     "price": 11500,
-    "image": "/images/laptops/hp-745-g6.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1638,7 +1433,7 @@
     "name": "HP 745 G6",
     "description": "Professional hp laptop with RAYZEN 5 3600 U processor",
     "price": 10500,
-    "image": "/images/laptops/hp-745-g6.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1657,7 +1452,7 @@
     "name": "HP 745 G5",
     "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
     "price": 10500,
-    "image": "/images/laptops/hp-745-g5.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1676,7 +1471,7 @@
     "name": "HP MT43",
     "description": "Professional hp laptop with A8-9TH processor",
     "price": 6000,
-    "image": "/images/laptops/hp-mt43.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1695,7 +1490,7 @@
     "name": "HP 745 G3",
     "description": "Professional hp laptop with A8-8TH processor",
     "price": 6000,
-    "image": "/images/laptops/hp-745-g3.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1714,7 +1509,7 @@
     "name": "HP 745 G4",
     "description": "Professional hp laptop with A12-9TH processor",
     "price": 6700,
-    "image": "/images/laptops/hp-745-g4.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1733,7 +1528,7 @@
     "name": "HP 745 G2",
     "description": "Professional hp laptop with A10-7TH processor",
     "price": 5300,
-    "image": "/images/laptops/hp-745-g2.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1752,7 +1547,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 7 4750 U processor",
     "price": 13500,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1771,7 +1566,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 7 4750 U processor",
     "price": 13000,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1790,7 +1585,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 5 4650 U processor",
     "price": 12000,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1809,7 +1604,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 5 4650 U processor",
     "price": 12500,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1828,7 +1623,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
     "price": 10000,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1847,7 +1642,7 @@
     "name": "HP 845 G7",
     "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
     "price": 9500,
-    "image": "/images/laptops/hp-845-g7.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1866,7 +1661,7 @@
     "name": "HP MT 46",
     "description": "Professional hp laptop with RAYZEN 3 4450 U processor",
     "price": 10000,
-    "image": "/images/laptops/hp-mt-46.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1885,7 +1680,7 @@
     "name": "HP 845 G10",
     "description": "Professional hp laptop with RAYZEN 7 7840 U processor",
     "price": 16000,
-    "image": "/images/laptops/hp-845-g10.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1904,7 +1699,7 @@
     "name": "HP 645 G4",
     "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
     "price": 8500,
-    "image": "/images/laptops/hp-645-g4.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1923,7 +1718,7 @@
     "name": "HP 645 G4",
     "description": "Professional hp laptop with RAYZEN 7 2700 U processor",
     "price": 9000,
-    "image": "/images/laptops/hp-645-g4.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1942,7 +1737,7 @@
     "name": "HP MT22",
     "description": "Professional hp laptop with CELERON 5205 processor",
     "price": 5300,
-    "image": "/images/laptops/hp-mt22.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1961,7 +1756,7 @@
     "name": "HP MT42",
     "description": "Professional hp laptop with A8-8TH processor",
     "price": 6000,
-    "image": "/images/laptops/hp-mt42.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1980,7 +1775,7 @@
     "name": "HP ZBOOK",
     "description": "Professional hp laptop with I7-5TH processor",
     "price": 7500,
-    "image": "/images/laptops/hp-zbook.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "4",
       "name": "HP"
@@ -1995,30 +1790,11 @@
     "battery": "65Wh"
   },
   {
-    "_id": "106",
-    "name": "BRAND MODEL",
-    "description": "Professional brand laptop with CPU processor",
-    "price": 0,
-    "image": "/images/laptops/brand-model.jpg",
-    "category_id": {
-      "_id": "2",
-      "name": "BRAND"
-    },
-    "cpu": "CPU",
-    "ram": "RAMGB",
-    "storage": "HDDGB SSD",
-    "graphics": "VGA",
-    "screen_size": "SCREEN\" Display",
-    "operating_system": "Windows 11 Pro",
-    "weight": "2.5kg",
-    "battery": "65Wh"
-  },
-  {
     "_id": "107",
     "name": "LENOVO IDEAPAD",
     "description": "Professional lenovo laptop with I5-7TH processor",
     "price": 7000,
-    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2037,7 +1813,7 @@
     "name": "LENOVO IDEAPAD",
     "description": "Professional lenovo laptop with I5-7TH processor",
     "price": 7000,
-    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2056,7 +1832,7 @@
     "name": "LENOVO L570",
     "description": "Professional lenovo laptop with I7-7TH processor",
     "price": 8500,
-    "image": "/images/laptops/lenovo-l570.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2075,7 +1851,7 @@
     "name": "LENOVO E570",
     "description": "Professional lenovo laptop with I5-7TH processor",
     "price": 7500,
-    "image": "/images/laptops/lenovo-e570.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2094,7 +1870,7 @@
     "name": "LENOVO E560",
     "description": "Professional lenovo laptop with I7-6TH processor",
     "price": 7500,
-    "image": "/images/laptops/lenovo-e560.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2113,7 +1889,7 @@
     "name": "LENOVO E560",
     "description": "Professional lenovo laptop with I5-6TH processor",
     "price": 6500,
-    "image": "/images/laptops/lenovo-e560.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2132,7 +1908,7 @@
     "name": "LENOVO W541",
     "description": "Professional lenovo laptop with I7-4TH processor",
     "price": 7500,
-    "image": "/images/laptops/lenovo-w541.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2151,7 +1927,7 @@
     "name": "LENOVO W520",
     "description": "Professional lenovo laptop with I7-2ND processor",
     "price": 4500,
-    "image": "/images/laptops/lenovo-w520.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2170,7 +1946,7 @@
     "name": "LENOVO IDEAPAD 330 17",
     "description": "Professional lenovo laptop with I5-8TH processor",
     "price": 8500,
-    "image": "/images/laptops/lenovo-ideapad-330-17.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2189,7 +1965,7 @@
     "name": "LENOVO 80HQ",
     "description": "Professional lenovo laptop with I5-6TH processor",
     "price": 6000,
-    "image": "/images/laptops/lenovo-80hq.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2208,7 +1984,7 @@
     "name": "LENOVO T450",
     "description": "Professional lenovo laptop with I5-5TH processor",
     "price": 5300,
-    "image": "/images/laptops/lenovo-t450.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2227,7 +2003,7 @@
     "name": "LENOVO IDEAPAD",
     "description": "Professional lenovo laptop with A12 processor",
     "price": 7500,
-    "image": "/images/laptops/lenovo-ideapad.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2246,7 +2022,7 @@
     "name": "LENOVO IDEAPAD 700",
     "description": "Professional lenovo laptop with I7-6TH processor",
     "price": 13000,
-    "image": "/images/laptops/lenovo-ideapad-700.jpg",
+    "image": "/images/laptops/placeholder-laptop.jpg",
     "category_id": {
       "_id": "5",
       "name": "LENOVO"
@@ -2259,5 +2035,45 @@
     "operating_system": "Windows 11 Pro",
     "weight": "2.5kg",
     "battery": "65Wh"
+  },
+  {
+    "_id": "115",
+    "name": "dell precision 5550 ",
+    "description": "Dell Precision 5550 Intel Core i7-10850H NVIDIA Quadro T1000 4GB 15.6 Inch FHD",
+    "price": 33000,
+    "quantity": 3,
+    "image": "/images/laptops/placeholder-laptop.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "Intel Core i7 10850H",
+    "ram": "32",
+    "storage": "512 ssd ",
+    "graphics": "NVIDIA Quadro T1000",
+    "screen_size": "15.6",
+    "operating_system": "Win 11",
+    "weight": "1500 g ",
+    "battery": "92Wh 6-cell"
+  },
+  {
+    "_id": "120",
+    "name": "dell precision 5550 ",
+    "description": "The Dell Latitude 5580 features a solid and professional design with a durable chassis that meets MIL-STD 810G standards, ensuring resilience and reliability for everyday business use. Its 15.6-inch Full HD display delivers sharp and vibrant visuals with narrow bezels, providing an immersive viewing experience. Weighing approximately 1.9 kg, the laptop balances portability with a robust build quality.",
+    "price": 33000,
+    "quantity": 3,
+    "image": "/images/laptops/placeholder-laptop.jpg",
+    "category_id": {
+      "_id": "1",
+      "name": "DELL"
+    },
+    "cpu": "Intel Core i7 10850H",
+    "ram": "32",
+    "storage": "512 ssd ",
+    "graphics": "NVIDIA Quadro T1000 4g",
+    "screen_size": "15.6",
+    "operating_system": "Win 11",
+    "weight": "1500 g ",
+    "battery": "92Wh 6-cell"
   }
 ]

@@ -15,6 +15,15 @@ const productSchema = new mongoose.Schema({
     required: true,
     min: 0
   },
+  cost_price: {
+    type: Number,
+    required: true,
+    min: 0
+  },
+  images: [{
+    type: String,
+    trim: true
+  }],
   image: {
     type: String,
     trim: true

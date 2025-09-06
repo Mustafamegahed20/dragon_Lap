@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   Card,
   CardContent,
@@ -15,6 +16,8 @@ import ComputerIcon from "@mui/icons-material/Computer";
 import MemoryIcon from "@mui/icons-material/Memory";
 import StorageIcon from "@mui/icons-material/Storage";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const Spec = ({ icon, label }) => (
   <Box
@@ -32,6 +35,22 @@ const Spec = ({ icon, label }) => (
 );
 
 const ProductCard = ({ product, handleAddToCart }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const images = product.images && product.images.length > 0 ? product.images : [product.image];
+  const currentImage = images[currentImageIndex] || product.image;
+  
+  const handlePrevImage = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setCurrentImageIndex(prev => prev > 0 ? prev - 1 : images.length - 1);
+  };
+  
+  const handleNextImage = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setCurrentImageIndex(prev => prev < images.length - 1 ? prev + 1 : 0);
+  };
+
   return (
     <Card
       elevation={3}
@@ -72,38 +91,99 @@ const ProductCard = ({ product, handleAddToCart }) => {
         }}
       />
 
-      {/* Product Image */}
-      {product.image ? (
-        <CardMedia
-          component="img"
-          height="200"
-          image={product.image}
-          alt={product.name}
-          className="product-image"
-          sx={{
-            objectFit: "fill",
-            background: "linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%)",
-            transition: "transform 0.4s ease",
-            minHeight: 200,
-            maxHeight: 200,
-          }}
-        />
-      ) : (
-        <Box
-          sx={{
-            // height: 200,
-            // minHeight: 200,
-            // maxHeight: 200,
-            background: "linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: "4rem",
-          }}
-        >
-          💻
-        </Box>
-      )}
+      {/* Product Image Gallery */}
+      <Box sx={{ position: "relative", overflow: "hidden" }}>
+        {currentImage ? (
+          <CardMedia
+            component="img"
+            height="200"
+            image={currentImage}
+            alt={product.name}
+            className="product-image"
+            sx={{
+              objectFit: "fill",
+              background: "linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%)",
+              transition: "transform 0.4s ease",
+              minHeight: 200,
+              maxHeight: 200,
+            }}
+          />
+        ) : (
+          <Box
+            sx={{
+              height: 200,
+              minHeight: 200,
+              maxHeight: 200,
+              background: "linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "4rem",
+            }}
+          >
+            💻
+          </Box>
+        )}
+        
+        {/* Navigation Controls - Only show if multiple images */}
+        {images.length > 1 && (
+          <>
+            <IconButton
+              onClick={handlePrevImage}
+              sx={{
+                position: "absolute",
+                left: 8,
+                top: "50%",
+                transform: "translateY(-50%)",
+                bgcolor: "rgba(0, 0, 0, 0.5)",
+                color: "white",
+                "&:hover": {
+                  bgcolor: "rgba(0, 0, 0, 0.7)",
+                },
+                width: 32,
+                height: 32,
+              }}
+            >
+              <ArrowBackIosIcon fontSize="small" />
+            </IconButton>
+            <IconButton
+              onClick={handleNextImage}
+              sx={{
+                position: "absolute",
+                right: 8,
+                top: "50%",
+                transform: "translateY(-50%)",
+                bgcolor: "rgba(0, 0, 0, 0.5)",
+                color: "white",
+                "&:hover": {
+                  bgcolor: "rgba(0, 0, 0, 0.7)",
+                },
+                width: 32,
+                height: 32,
+              }}
+            >
+              <ArrowForwardIosIcon fontSize="small" />
+            </IconButton>
+            
+            {/* Image Counter */}
+            <Box
+              sx={{
+                position: "absolute",
+                bottom: 8,
+                right: 8,
+                bgcolor: "rgba(0, 0, 0, 0.6)",
+                color: "white",
+                px: 1,
+                py: 0.5,
+                borderRadius: 1,
+                fontSize: "0.75rem",
+              }}
+            >
+              {currentImageIndex + 1}/{images.length}
+            </Box>
+          </>
+        )}
+      </Box>
 
       <CardContent
         sx={{

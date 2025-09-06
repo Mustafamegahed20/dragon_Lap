@@ -79,4 +79,82 @@ export async function updateOrderStatus(orderId, status, token) {
   }
 }
 
+// Admin Product Management API functions
+export async function addProduct(productData, token) {
+  try {
+    const res = await fetch(`${API_BASE}/admin/products`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(productData)
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.json();
+  } catch (error) {
+    console.error('Error adding product:', error);
+    throw error;
+  }
+}
+
+export async function deleteProduct(productId, token) {
+  try {
+    const res = await fetch(`${API_BASE}/admin/products/${productId}`, {
+      method: 'DELETE',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.json();
+  } catch (error) {
+    console.error('Error deleting product:', error);
+    throw error;
+  }
+}
+
+export async function getAdminAnalytics(token) {
+  try {
+    const res = await fetch(`${API_BASE}/admin/analytics`, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      }
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.json();
+  } catch (error) {
+    console.error('Error fetching analytics:', error);
+    throw error;
+  }
+}
+
+export async function updateProduct(productId, productData, token) {
+  try {
+    const res = await fetch(`${API_BASE}/admin/products/${productId}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(productData)
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP error! status: ${res.status}`);
+    }
+    return res.json();
+  } catch (error) {
+    console.error('Error updating product:', error);
+    throw error;
+  }
+}
+
 

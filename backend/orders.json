@@ -1,0 +1,42 @@
+{
+  "orders": [
+    {
+      "_id": "order-1",
+      "address": {
+        "street": "kerdasa",
+        "city": "Giza",
+        "state": "Egypt",
+        "zipCode": "12943"
+      },
+      "total": 14500,
+      "status": "pending",
+      "items": [
+        {
+          "quantity": 2,
+          "price": 14500,
+          "cost_price": 14000
+        }
+      ],
+      "createdAt": "2025-08-30T10:08:32.324Z"
+    },
+    {
+      "_id": "order-2",
+      "address": {
+        "street": "kerdasa",
+        "city": "Giza",
+        "state": "111",
+        "zipCode": "12943"
+      },
+      "total": 14500,
+      "status": "pending",
+      "items": [
+        {
+          "price": 14500,
+          "cost_price": 0
+        }
+      ],
+      "createdAt": "2025-08-30T10:48:22.741Z"
+    }
+  ],
+  "orderIdCounter": 3
+}

@@ -12,6 +12,7 @@ import About from "./pages/About";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Admin from "./pages/Admin";
+import EditProduct from "./pages/EditProduct";
 
 export const routes = [
   { path: "/", title: "Home - Dragon Lap", component: Home },
@@ -37,6 +38,12 @@ export const routes = [
     path: "/admin",
     title: "Admin - Dragon Lap",
     component: Admin,
+    adminOnly: true,
+  },
+  {
+    path: "/admin/edit-product/:productId",
+    title: "Edit Product - Dragon Lap",
+    component: EditProduct,
     adminOnly: true,
   },
 ];
