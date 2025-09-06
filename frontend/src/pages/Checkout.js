@@ -86,7 +86,8 @@ const Checkout = () => {
         headers.Authorization = `Bearer ${token}`;
       }
       
-      const res = await fetch('http://localhost:5000/api/orders', {
+      const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+      const res = await fetch(`${API_BASE}/orders`, {
         method: 'POST',
         headers,
         body: JSON.stringify({
