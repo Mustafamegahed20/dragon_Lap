@@ -24,39 +24,37 @@ function EditProduct() {
       return;
     }
 
-    // fetchData is intentionally not included in deps to avoid recreating the function
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const [productsData, categoriesData] = await Promise.all([
+          getProducts(),
+          getCategories()
+        ]);
+        
+        const foundProduct = productsData.find(p => p._id === productId);
+        if (!foundProduct) {
+          setError('Product not found');
+          return;
+        }
+        
+        setProduct({
+          ...foundProduct,
+          cost_price: foundProduct.cost_price || 0
+        });
+        setCategories(categoriesData);
+        // Load existing images
+        const existingImages = foundProduct.images || [foundProduct.image];
+        setImagePreviews(existingImages.filter(img => img));
+      } catch (err) {
+        setError('Failed to load product data: ' + err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchData();
   }, [productId, user.is_admin, navigate]);
-
-  const fetchData = async () => {
-    try {
-      setLoading(true);
-      const [productsData, categoriesData] = await Promise.all([
-        getProducts(),
-        getCategories()
-      ]);
-      
-      const foundProduct = productsData.find(p => p._id === productId);
-      if (!foundProduct) {
-        setError('Product not found');
-        return;
-      }
-      
-      setProduct({
-        ...foundProduct,
-        cost_price: foundProduct.cost_price || 0
-      });
-      setCategories(categoriesData);
-      // Load existing images
-      const existingImages = foundProduct.images || [foundProduct.image];
-      setImagePreviews(existingImages.filter(img => img));
-    } catch (err) {
-      setError('Failed to load product data: ' + err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
