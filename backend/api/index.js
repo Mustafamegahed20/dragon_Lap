@@ -1,5 +1,3 @@
-const connectDB = require('../lib/mongodb');
-
 export default async function handler(req, res) {
   // Enable CORS
   res.setHeader('Access-Control-Allow-Credentials', true);
@@ -12,11 +10,9 @@ export default async function handler(req, res) {
     return;
   }
 
-  try {
-    await connectDB();
-    res.status(200).json({ message: 'Dragon Lap API is running on Vercel!' });
-  } catch (error) {
-    console.error('Database connection error:', error);
-    res.status(500).json({ error: 'Database connection failed' });
-  }
+  res.status(200).json({ 
+    message: 'Dragon Lap API is running on Vercel!',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development'
+  });
 }
