@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { getAdminOrders, updateOrderStatus, getProducts, getCategories, addProduct, deleteProduct, getAdminAnalytics } from '../api';
 import './Admin.css';
@@ -46,30 +46,43 @@ function Admin() {
   const [imagePreviews, setImagePreviews] = useState([]);
   // editSelectedFile and editImagePreview were unused; removed to satisfy linter
 
-  // fetchInitialData and user.is_admin are intentionally omitted from deps
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    if (!user.is_admin) {
-      setError('Access denied. Admin privileges required.');
-      setLoading(false);
-      return;
+  const fetchOrders = useCallback(async () => {
+    try {
+      const ordersData = await getAdminOrders(token);
+      setOrders(ordersData);
+    } catch (err) {
+      setError('Failed to fetch orders: ' + err.message);
     }
+  }, [token]);
 
-    fetchInitialData();
+  const fetchProducts = useCallback(async () => {
+    try {
+      const productsData = await getProducts();
+      setProducts(productsData);
+    } catch (err) {
+      setError('Failed to fetch products: ' + err.message);
+    }
   }, []);
 
-  useEffect(() => {
-    // Handle success message from navigation
-    if (location.state?.message) {
-      setMessage(location.state.message);
-      // Clear the message after 5 seconds
-      setTimeout(() => setMessage(''), 5000);
-      // Clear the state to prevent showing on refresh
-      navigate(location.pathname, { replace: true });
+  const fetchCategories = useCallback(async () => {
+    try {
+      const categoriesData = await getCategories();
+      setCategories(categoriesData);
+    } catch (err) {
+      setError('Failed to fetch categories: ' + err.message);
     }
-  }, [location.state, navigate, location.pathname]);
+  }, []);
 
-  const fetchInitialData = async () => {
+  const fetchAnalytics = useCallback(async () => {
+    try {
+      const analyticsData = await getAdminAnalytics(token);
+      setAnalytics(analyticsData);
+    } catch (err) {
+      setError('Failed to fetch analytics: ' + err.message);
+    }
+  }, [token]);
+
+  const fetchInitialData = useCallback(async () => {
     try {
       setLoading(true);
       await Promise.all([
@@ -83,43 +96,28 @@ function Admin() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [fetchOrders, fetchProducts, fetchCategories, fetchAnalytics]);
 
-  const fetchOrders = async () => {
-    try {
-      const ordersData = await getAdminOrders(token);
-      setOrders(ordersData);
-    } catch (err) {
-      setError('Failed to fetch orders: ' + err.message);
+  useEffect(() => {
+    if (!user.is_admin) {
+      setError('Access denied. Admin privileges required.');
+      setLoading(false);
+      return;
     }
-  };
 
-  const fetchProducts = async () => {
-    try {
-      const productsData = await getProducts();
-      setProducts(productsData);
-    } catch (err) {
-      setError('Failed to fetch products: ' + err.message);
-    }
-  };
+    fetchInitialData();
+  }, [fetchInitialData, user.is_admin]);
 
-  const fetchCategories = async () => {
-    try {
-      const categoriesData = await getCategories();
-      setCategories(categoriesData);
-    } catch (err) {
-      setError('Failed to fetch categories: ' + err.message);
+  useEffect(() => {
+    // Handle success message from navigation
+    if (location.state?.message) {
+      setMessage(location.state.message);
+      // Clear the message after 5 seconds
+      setTimeout(() => setMessage(''), 5000);
+      // Clear the state to prevent showing on refresh
+      navigate(location.pathname, { replace: true });
     }
-  };
-
-  const fetchAnalytics = async () => {
-    try {
-      const analyticsData = await getAdminAnalytics(token);
-      setAnalytics(analyticsData);
-    } catch (err) {
-      setError('Failed to fetch analytics: ' + err.message);
-    }
-  };
+  }, [location.state, navigate, location.pathname]);
 
   const handleStatusUpdate = async (orderId, newStatus) => {
     try {

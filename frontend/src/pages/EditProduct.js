@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getProducts, getCategories, updateProduct } from '../api';
 import './EditProduct.css';
@@ -18,43 +18,43 @@ function EditProduct() {
   const user = JSON.parse(localStorage.getItem('user') || '{}');
   const token = localStorage.getItem('token');
 
+  const fetchInitialData = useCallback(async () => {
+    try {
+      setLoading(true);
+      const [productsData, categoriesData] = await Promise.all([
+        getProducts(),
+        getCategories()
+      ]);
+      
+      const foundProduct = productsData.find(p => p._id === productId);
+      if (!foundProduct) {
+        setError('Product not found');
+        return;
+      }
+      
+      setProduct({
+        ...foundProduct,
+        cost_price: foundProduct.cost_price || 0
+      });
+      setCategories(categoriesData);
+      // Load existing images
+      const existingImages = foundProduct.images || [foundProduct.image];
+      setImagePreviews(existingImages.filter(img => img));
+    } catch (err) {
+      setError('Failed to load product data: ' + err.message);
+    } finally {
+      setLoading(false);
+    }
+  }, [productId]);
+
   useEffect(() => {
     if (!user.is_admin) {
       navigate('/admin');
       return;
     }
 
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const [productsData, categoriesData] = await Promise.all([
-          getProducts(),
-          getCategories()
-        ]);
-        
-        const foundProduct = productsData.find(p => p._id === productId);
-        if (!foundProduct) {
-          setError('Product not found');
-          return;
-        }
-        
-        setProduct({
-          ...foundProduct,
-          cost_price: foundProduct.cost_price || 0
-        });
-        setCategories(categoriesData);
-        // Load existing images
-        const existingImages = foundProduct.images || [foundProduct.image];
-        setImagePreviews(existingImages.filter(img => img));
-      } catch (err) {
-        setError('Failed to load product data: ' + err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, [productId, user.is_admin, navigate]);
+    fetchInitialData();
+  }, [fetchInitialData, user.is_admin, navigate]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
