@@ -13,7 +13,7 @@ function EditProduct() {
   const [saving, setSaving] = useState(false);
   const [selectedFiles, setSelectedFiles] = useState([]);
   const [imagePreviews, setImagePreviews] = useState([]);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  // currentImageIndex was unused; removed to satisfy linter
 
   const user = JSON.parse(localStorage.getItem('user') || '{}');
   const token = localStorage.getItem('token');
@@ -23,7 +23,9 @@ function EditProduct() {
       navigate('/admin');
       return;
     }
-    
+
+    // fetchData is intentionally not included in deps to avoid recreating the function
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     fetchData();
   }, [productId, user.is_admin, navigate]);
 

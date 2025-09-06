@@ -44,9 +44,10 @@ function Admin() {
   
   const [selectedFiles, setSelectedFiles] = useState([]);
   const [imagePreviews, setImagePreviews] = useState([]);
-  const [editSelectedFile, setEditSelectedFile] = useState(null);
-  const [editImagePreview, setEditImagePreview] = useState(null);
+  // editSelectedFile and editImagePreview were unused; removed to satisfy linter
 
+  // fetchInitialData and user.is_admin are intentionally omitted from deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (!user.is_admin) {
       setError('Access denied. Admin privileges required.');

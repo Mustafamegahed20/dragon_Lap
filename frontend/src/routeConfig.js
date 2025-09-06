@@ -1,5 +1,4 @@
-import { Routes, Route } from "react-router-dom";
-import WithTitle from "./WithTitle";
+// routeConfig only declares the routes array; removed unused imports
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
